@@ -1,0 +1,88 @@
+.p1{
+    font-size: small;
+    color: white;
+}
+
+.p2, .p3, .p4, .p5, .p6{
+    font-size: medium;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+
+
+   
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.homeimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    text-align: start;
+    top: 55%;
+    left: 50%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 38px;
+    font-weight: 800;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.h1{
+    margin-bottom: 60px;
+
+}
+
+.sec1{
+    margin-left: 100px;
+    padding-bottom: 5px;
+}
+
+
+
+
+.hero-text form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+.hero-text input{
+    height: 3rem;
+    width: 392px;
+    padding: 0 1rem;
+    margin-right: 20px;
+    border-radius: .3rem;
+    border: 1px solid #013A6B;
+
+}
+
+.hero-text button{
+    height: 3rem;
+    padding: 0 1rem;
+    border-radius: .3rem;
+    border: 1px solid #013A6B;
+ 
+}
+
+ .b21{
+    color: #FAFAFA;
+    background-color: #013A6B   
+ }

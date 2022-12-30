@@ -1,0 +1,83 @@
+.Testimonies{
+    margin: 4rem 6rem;
+    color: #013A6B;
+}
+
+.Testimonies h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    text-align: start;
+    margin-top: 120px;
+}
+
+.swiper{
+    margin-top: 50px;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.t-card{
+    width: 100%;
+    text-align: start;
+    border-color: #013A6B;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.t-card:hover{
+    background-color: #013A6B;
+}
+
+.t-image{    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    margin-left: 64px;
+    margin-top: 20px;
+
+    display: block;
+   
+}
+
+.t-image img{
+    width:100%;
+
+}
+.t-card h4{
+    font-size: 1.2rem;
+    padding: .9rem 0 .2rem 0;
+    
+}
+
+.t-card h6{
+    font-size: .9rem;
+    color: grey;
+    padding: .9rem 0 .2rem 0;
+    margin-bottom: 15px;
+
+}
+
+.t-card p{
+    margin-bottom: 15px;
+}
+
+.t-card:hover p{
+    margin-bottom: 15px;
+    color: #DFE8F8;
+}
+
+.t-card:hover h4{
+    font-size: 1.2rem;
+    padding: .9rem 0 .2rem 0;
+    color: #DFE8F8;
+}
+

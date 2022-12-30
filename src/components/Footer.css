@@ -1,0 +1,66 @@
+.footer{
+    padding: 2rem 6rem;
+    background: #013A6B;
+    color: #FFFFFF;
+
+}
+
+
+
+.yolo1 i:hover{
+    color: #16F529;
+}
+
+.logo1{
+    margin-bottom: 38px;
+}
+
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.bottom h4{
+    margin-top: 60px;
+    font-size: 1.3rem;
+    padding: 1rem 0 .8rem 0;
+
+}
+
+.bottom a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-bottom: .4rem;
+    font-size: 1.1rem;
+}
+
+.me{
+    margin-top: 61px;
+}
+
+.yolo1 i{
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-bottom: 38px;
+   
+}
+
+.yolo{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

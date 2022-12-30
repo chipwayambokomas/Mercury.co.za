@@ -1,0 +1,155 @@
+.Accordion{
+    margin: 4rem 6rem;
+    color: #013A6B;
+}
+
+.Accordion h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    text-align: start;
+    margin-top: 120px;
+}
+
+.Accordion p{
+    text-align: start;
+    font-size: 18px;
+}
+
+.faqs, .faqs1{
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-width: 100%;
+    
+}
+
+
+.faqs .faq{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: #013A6B;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+.faqs1 .faq1{
+
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: #013A6B;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+.faqs .faq .faq-question{
+    position: relative;
+    font-size: 20px;
+    padding-right: 80px;
+
+
+    transition: all 0.5s  ease-in-out;
+
+}
+
+.faqs .faq .faq-question::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+
+
+    background-image: url('https://maxton.at/images/buttons/expand.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.faqs1 .faq1 .faq-question1{
+    position: relative;
+    font-size: 20px;
+    padding-right: 80px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.faqs1 .faq1 .faq-question1::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+
+    background-image: url('https://maxton.at/images/buttons/expand.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.faqs .faq .faq-answer{
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.faqs1 .faq1 .faq-answer1{
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.faqs .faq.open .faq-question{
+    margin-bottom: 15px;
+
+}
+
+.faqs1 .faq1.open .faq-question1{
+    margin-bottom: 15px;
+
+}
+
+.faqs .faq.open .faq-question::after{
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.faqs .faq.open .faq-answer{
+    max-height: 1000px;
+    opacity: 1;
+}
+
+
+.faqs1 .faq1.open .faq-question1::after{
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.faqs1 .faq1.open .faq-answer1{
+    max-height: 1000px;
+    opacity: 1;
+}
