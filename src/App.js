@@ -9,6 +9,7 @@ import Services from './routes/Services';
 import Contact from './routes/Contact';
 import Blog from './routes/Blog';
 import Login from './routes/Login';
+import FAQpage from './routes/FAQpage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/contact-us' element={<Contact />}/>
         <Route path='/book-a-collection' element={<Book />}/>
         <Route path='/login' element={<Login />}/>
+        <Route path='/faq' element={<FAQpage />}/>
       </Routes>
 
       
