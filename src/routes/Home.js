@@ -7,6 +7,7 @@ import FAQ from "../components/FAQ.js"
 import Testimonies from "../components/Testimonies.js"
 import FeedbackAttributes from "../components/FeedbackAttributes.js"
 import Footer from "../components/Footer.js"
+
 import Navbar1 from "../components/Navbar1.js"
 
 
@@ -24,6 +25,7 @@ function Home () {
             <Testimonies/>
             <FeedbackAttributes/>
             <Footer/>
+            
             
         
         </>
