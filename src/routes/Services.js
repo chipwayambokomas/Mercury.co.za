@@ -5,6 +5,8 @@ import RegularHero from '../components/RegularHero'
 import homeimage from '../assests/regular.png'
 import Footer from '../components/Footer'
 import ServiceCards from '../components/ServiceCards'
+import ServicesSection2 from '../components/ServicesSection2'
+import MercuryLatestNews from '../components/MercuryLatestNews'
 
 function Services() {
   return (
@@ -23,6 +25,11 @@ function Services() {
         />
 
     <ServiceCards/>
+
+
+    <ServicesSection2/>
+
+    <MercuryLatestNews/>
 
     <Footer/>
         

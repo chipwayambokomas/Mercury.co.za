@@ -1,0 +1,145 @@
+.pic1 {
+    left: 1440px;
+    margin-left: 380px;
+    margin-bottom: 100px;
+
+
+}
+
+.serviceDetailCard {
+    width: 555px;
+    height: 459px;
+    background: #013A6B;
+    text-align: start;
+    position: absolute;
+    top: 180%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.serviceDetailCardTitle {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 34px;
+    font-weight: 800;
+    font-size: 24.06px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.serviceDetailCardDetail {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 38px;
+    /* or 200% */
+
+
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+
+.serviceDetailCard button{
+
+ margin-top: 33px;
+ margin-left: 40px;  
+ border: 1px solid #FFFFFF;
+ border-radius: 5px;
+ background-color: transparent;
+ color: white;
+
+}
+
+
+
+
+
+
+
+.pic2 {
+    left: 1440px;
+    margin-right: 380px;
+    margin-bottom: 100px;
+
+
+}
+
+.serviceDetailCard1 {
+    width: 555px;
+    height: 459px;
+    background: #013A6B;
+    text-align: start;
+    position: absolute;
+    top: 291%;
+    right: -20%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.serviceDetailCardTitle1 {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 34px;
+    font-weight: 800;
+    font-size: 24.06px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.serviceDetailCardDetail1 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 38px;
+    /* or 200% */
+
+
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+
+.serviceDetailCard1 button{
+
+ margin-top: 33px;
+ margin-left: 40px;  
+ border: 1px solid #FFFFFF;
+ border-radius: 5px;
+ background-color: transparent;
+ color: white;
+
+}
+
+.ShiftingButtons button{
+    width: 262px;
+height: 81px;
+border-radius: none;
+box-shadow: none;
+border: 1px solid #FFFFFF;
+background-color: transparent;
+color: #FFFFFF;
+
+}
+
+.ShiftingButtonsb1{
+    position: absolute;
+top: 332.3%;
+left: 9.7%;
+transform: translate(-50%, -50%);
+
+}
+
+.ShiftingButtonsb2{
+    position: absolute;
+top: 332.3%;
+left: 29.1%;
+transform: translate(-50%, -50%);
+}
+
+.ShiftingButtonsb3{
+    position: absolute;
+top: 332.3%;
+left: 48.5%;
+transform: translate(-50%, -50%);
+}
+
