@@ -9,7 +9,7 @@ export const MenuData1 = [
         title:"enquiries@mercury.co.zm",
         url: '/',
         cName:"nav-links1",
-        icon: 'fa-solid fa-globe',
+        icon: 'fa-solid fa-envelope',
     },
 
 ]

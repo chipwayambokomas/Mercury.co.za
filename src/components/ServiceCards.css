@@ -1,0 +1,135 @@
+.ServiceCards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    list-style: none;
+    align-items: center;
+    padding: 81px 6rem;
+    width: 100%;
+   
+}
+
+.SC1,
+.SC2,
+.SC3 {
+
+    text-align: start;
+    width: 380px;
+    height: 220px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background-color: rgba(1, 58, 107, 0.05);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.SC1:hover,
+.SC2:hover,
+.SC3:hover {
+
+    background-color: #233367;
+    box-shadow: 0px 13px 19px darkblue;
+
+}
+
+
+.SC1 i{
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #233367;
+    
+}
+.SC2 i{
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #233367;
+    
+}
+.SC3 i{
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #233367;
+    
+}
+
+.cardname-SC{
+    margin-left: 45px;
+    color: #233367;
+    font-weight: 800;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+letter-spacing: 0.1px;
+margin-bottom: 15px;
+
+
+}
+
+.carddes-SC{
+
+    margin-left: 45px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+color: #6A6A6A;
+
+
+}
+
+.carddes-SC2{
+
+    margin-left: 45px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+color: #6A6A6A;
+
+
+
+}
+
+
+.SC1:hover i{
+    
+    color: white;
+    
+}
+.SC2:hover i{
+    
+    color: white;
+    
+}
+.SC3:hover i{
+    
+    color: white;
+    
+}
+.SC1:hover p{
+    
+    color: white;
+    
+}
+.SC2:hover p{
+    
+    color: white;
+    
+}
+.SC3:hover p{
+    
+    color: white;
+    
+}
