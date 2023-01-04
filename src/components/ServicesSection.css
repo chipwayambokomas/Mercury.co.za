@@ -15,7 +15,7 @@
 }
 
 .sectioncard, .sectioncard2{
-    margin-top: 3rem;
+margin-top: 3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -30,20 +30,20 @@
 
 }
 
-.s-image{
+.n-image{
     height: 200px;
     overflow: hidden;
     border-radius: 7px;
 }
 
-.s-image img{
+.n-image img{
     width: 100%;
     height: 100%;
     transition: all 0.5s ease-in-out;
     border-radius: 7px;
 }
 
-.s-image:hover img{
+.n-image:hover img{
     transform: scale(1.3);
 }
 

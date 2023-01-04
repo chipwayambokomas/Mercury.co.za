@@ -116,30 +116,42 @@ height: 81px;
 border-radius: none;
 box-shadow: none;
 border: 1px solid #FFFFFF;
-background-color: transparent;
 color: #FFFFFF;
 
 }
 
 .ShiftingButtonsb1{
     position: absolute;
-top: 332.3%;
+top: 332.6%;
 left: 9.7%;
 transform: translate(-50%, -50%);
 
 }
 
+.ShiftingButtonsb1:hover{
+    background-color: transparent;
+}
+.ShiftingButtonsb2:hover{
+    background-color: transparent;
+}
+.ShiftingButtonsb3:hover{
+    background-color: transparent;
+}
+
+
+
 .ShiftingButtonsb2{
     position: absolute;
-top: 332.3%;
+top: 332.6%;
 left: 29.1%;
 transform: translate(-50%, -50%);
 }
 
 .ShiftingButtonsb3{
     position: absolute;
-top: 332.3%;
+top: 332.6%;
 left: 48.5%;
 transform: translate(-50%, -50%);
 }
+
 

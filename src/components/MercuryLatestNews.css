@@ -1,0 +1,31 @@
+.MercuryLatestNews h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.MercuryLatestNews{
+    margin: 0 6rem;
+color: #013A6B;
+margin-bottom: 100px;
+
+}
+
+.s-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.s-image img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 7px;
+}
+
+.s-image:hover img{
+    transform: scale(1.3);
+}
+
+
