@@ -1,0 +1,94 @@
+.Timeline{
+    width: 20%;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.postinformation i{
+
+    padding-right: 15px;
+    
+}
+
+.postinformation{
+    display: flex;
+    white-space: nowrap;
+    padding-top: 40px;
+    margin-left: 25px;
+    color: #7B7B7B;
+    
+}
+
+.postinformation p{
+    padding-right: 36px;
+    
+}
+
+.Timeline h1{
+    text-align: start;
+    width: 681px;
+height: 78px;
+
+    padding-top: 39px;
+    padding-bottom: 18px;
+    font-weight: 700;
+font-size: 31.25px;
+line-height: 123.6%;
+/* or 39px */
+
+
+/* Black */
+
+color: #373737;
+margin-left: 25px;
+}
+
+.postpre{
+text-align: start;
+margin-left: 25px;
+
+width: 748px;
+height: 100px;
+margin-top: 49px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+/* or 24px */
+
+
+/* Gray ( Paragraph ) */
+
+color: #7B7B7B;
+
+}
+
+.readmore{
+margin-left: 25px;
+width: 206px;
+height: 55px;
+left: 122px;
+top: 1344px;
+
+border: 1px solid #013A6B;
+border-radius: 5px;
+margin-bottom: 60px;
+}
+
+.pageButtonsb1, .pageButtonsb2, .pageButtonsb3, .pageButtonsb4{
+    margin-right: 18px;
+    margin-bottom: 100px;
+    border: 1px solid #013A6B;
+border-radius: 5px;
+}
+
+.pageButtonsb1:hover, .pageButtonsb2:hover, .pageButtonsb3:hover, .pageButtonsb4:hover{
+    background-color: transparent;
+    color: #013A6B;
+}
+ul {
+    list-style-type: none;
+}

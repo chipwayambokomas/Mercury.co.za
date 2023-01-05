@@ -4,6 +4,8 @@ import Navbar1 from '../components/Navbar1'
 import RegularHero from '../components/RegularHero'
 import homeimage from '../assests/regular.png'
 import Footer from '../components/Footer'
+import Timeline from '../components/Timeline'
+import BlogSideSection from '../components/BlogSideSection'
 
 function Blog() {
   return (
@@ -20,6 +22,9 @@ function Blog() {
         des2='placeholder text commonly used to demonstrate'
         backgroundTitle='BLOG'
         />
+
+        <Timeline/>
+        <BlogSideSection/>
 
     <Footer/>
         

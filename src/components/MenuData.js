@@ -19,7 +19,7 @@ export const MenuData = [
     },
     {
         title:"Blog",
-        url: '/blog',
+        url: '/blog/page=1',
         cName:"nav-links",
         icon: 'fa-solid fa-pen-nib',
     },

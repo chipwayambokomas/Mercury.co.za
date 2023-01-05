@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 function ServicesSection2() {
 
-    const [data, setData] = useState('Services We Offer')
+    const [data, setData] = useState('Air Transport Services')
 
     const [picData, setPicData] = useState(pic2)
 
@@ -32,7 +32,7 @@ function ServicesSection2() {
 
     }
 
-    const [selected, setSelected] = useState(0);
+    const [selected, setSelected] = useState(1);
 
     const handleColor = (row) => {
         setSelected(row.id);
