@@ -1,0 +1,192 @@
+.BlogSideSection{
+    position: absolute;
+    text-align: center;
+    top: 210%;
+    left: 83%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+    transform: translate(-50%,-50%);
+    width: 370px;
+}
+
+.BlogSideSection input{
+    padding-left: 2rem;
+    width: 370px;
+height: 60px;
+    /* White */
+
+background: #FFFFFF;
+/* Effect-1 */
+border: 1px solid transparent;
+
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+
+}
+
+.BlogSideSection i{
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left: 91%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+    transform: translate(-50%,-50%);
+    width: 100%;
+    font-size: 1.2rem;
+    
+}
+
+.Latest1{
+    margin-top: 40px;
+/* White */
+;
+
+background: #FFFFFF;
+/* Effect-1 */
+
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+    background: #FFFFFF;
+/* Effect-1 */
+
+}
+
+.Latest1 h2, .Categories h2, .Tags h2{
+    text-align: start;
+    padding-left: 18px;
+    padding-top: 40px;
+    font-weight: 700;
+font-size: 25px;
+line-height: 123.6%;
+/* identical to box height, or 31px */
+
+
+/* Black */
+
+color: #373737;
+margin-bottom: 30px;
+
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.posts img{
+    padding-left: 18px;
+    padding-right: 17px;
+
+}
+
+.posts p{
+    text-align: start;
+   
+    font-weight: 400;
+font-size: 20px;
+line-height: 143.6%;
+/* or 29px */
+
+
+/* Black */
+
+color: #373737;
+}
+
+.Categories{
+
+    margin-top: 40px;
+    /* White */
+    ;
+    
+    background: #FFFFFF;
+    /* Effect-1 */
+    
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+        background: #FFFFFF;
+    /* Effect-1 */
+
+}
+
+.Category{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    justify-content: space-between;
+
+}
+
+.Category p{
+    padding-left: 18px;
+    
+    font-weight: 500;
+font-size: 20px;
+line-height: 123.6%;
+/* identical to box height, or 25px */
+
+
+/* Gray ( Paragraph ) */
+
+color: #7B7B7B;
+}
+
+.Category button{
+    
+    width: 50px;
+height: 30px;
+border: 1px solid #7B7B7B;
+color: #7B7B7B;
+margin-right: 18px;
+
+}
+
+.Tags{
+
+    margin-top: 40px;
+    /* White */
+    ;
+    
+    background: #FFFFFF;
+    /* Effect-1 */
+    
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+        background: #FFFFFF;
+    /* Effect-1 */
+
+}
+
+.tags1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    justify-content: space-between;
+
+
+
+}
+
+.tags1 button{
+
+    width: 146px;
+height: 31px;
+background-color: #FFF7F4;
+text-align: center;
+/* Gray ( Paragraph ) */
+border: 1px solid transparent;
+
+color: #7B7B7B;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+
+}
+
+.tagname1{
+
+    margin-left: 33px;
+
+}
+.tagname2{
+    margin-right: 33px;
+    /* Gray ( Paragraph ) */}
+
