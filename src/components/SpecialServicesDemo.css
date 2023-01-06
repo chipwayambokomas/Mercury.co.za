@@ -1,0 +1,198 @@
+.SpecialServices {
+    margin: 4rem 6rem;
+}
+
+.SpecialServices h1{
+    text-align: start;
+    font-weight: 700;
+font-size: 39.06px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #013A6B;
+padding-bottom: 20px;
+}
+
+.SpecialServicesDes {
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #6A6A6A;
+text-align: start;
+padding-bottom: 50px;
+}
+
+.SpecialServices img{
+    margin-left: 263px;
+}
+
+.ServicePreview{
+    display: flex;
+   
+    align-items: center;
+    width: 995px;
+    height: 125px;
+    background-color: transparent;
+    position: absolute;
+    top: 353%;
+    left: 63.4%;
+    transform: translate(-50%, -50%);
+    
+    
+
+
+}
+
+.ServicePreview p{
+    padding-left: 110px;
+    text-align: start;
+
+    font-weight: 500px;
+font-size: 18px;
+line-height: 32px;
+/* or 179% */
+
+
+color: #FFFFFF;
+
+}
+
+.ServicePageReadmore{
+
+    background-color: transparent;
+    color: white;
+    margin-right: 35px;
+    width: 164.8px;
+height: 44px;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+font-weight: 400px;
+
+}
+
+.ServicePageReadmore:hover{
+    background-color: #013A6B;
+}
+
+
+.serviceOptions{
+    display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #013A6B;
+        width: 445px;
+height: 459px;
+position: absolute;
+top: 311%;
+left: 20%;
+transform: translate(-50%, -50%);
+align-items: stretch;
+}
+
+.link1{
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 130px;
+    padding-top: 55px;
+    text-align: start;
+}
+.link2, .link3, .link4, .link5, .link6{
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 130px;
+    text-align: start;
+}
+
+.scroll{
+    width: 4px;
+height: 335px;
+background-color: #FF5300;
+position: absolute;
+top: 309.5%;
+left: 9%;
+transform: translate(-50%, -50%);
+
+}
+
+.scroll1{
+    width: 4px;
+    height: 240px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 309.5%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.scroll2{
+    width: 4px;
+    height: 240px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 316.7%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.ServicePages{
+display: flex;
+position: absolute;
+flex-direction: column;
+top: 340.9%;
+left: 9%;
+transform: translate(-50%, -50%);
+}
+
+.CurrentPage{
+    transform: rotate(270deg);
+    color:#FF5300;
+    font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+
+
+}
+.noOfPages{
+    transform: rotate(270deg);
+    color: white;
+    font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+}
+
+.pageNumbers{
+    display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+position: absolute;
+top: 311%;
+left: 12%;
+transform: translate(-50%, -50%);
+align-items: stretch;
+
+}
+
+.p11{
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: start;
+}
+
+.p2111, .p31 ,.p41,.p51,.p61{
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    
+    text-align: start;
+}

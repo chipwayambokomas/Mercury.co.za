@@ -11,18 +11,13 @@
 }
 
 
+
    
 
 .hero{
     width: 100%;
-    height: 100vh;
+    
     position: relative;
-}
-
-.homeimg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .hero-text{
@@ -51,6 +46,7 @@
 .sec1{
     margin-left: 100px;
     padding-bottom: 5px;
+    margin-bottom: 70px;
 }
 
 

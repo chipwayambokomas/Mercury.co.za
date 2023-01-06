@@ -22,8 +22,9 @@ function Testimonies() {
       <SwiperSlide>
 
       <TData 
-            image={pc}
+           
             heading= 'Janet Moore'
+            image={pc}
             position='CMO, Woldie'
             text='Working with Micky is a pleasure. We are impressed by the way how their teamwork. It’s professional, at a good pace with great communication about our business needs. They were prepared extremely well to work with our company.'
             

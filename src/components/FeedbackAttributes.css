@@ -29,11 +29,14 @@
 
 .form-container input{
     height: 3rem;
-    padding: 0 1rem;
+    padding: 0 3rem;
     margin-bottom: 1rem;
     border-radius: .3rem;
     border: 1px solid #013A6B;
 
+}
+.money{
+    margin-right: 15.68px;
 }
 
 
@@ -69,10 +72,25 @@
 
 }
 
+.attributes {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+    margin-left: 100px;
+    color: #013A6B;
+    margin-left: 150px;
+
+}
+
+.attributes h4{
+    color: black;
+}
+
 .q1,.q2,.q3,.q4{
     display: flex;
-    font-size: 20px;
-    padding-bottom: 70px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    
     
 }
 
@@ -84,7 +102,7 @@
 
 .p21{
     padding-top: 30px;
-    padding-bottom: 19px;
+    padding-bottom: 15px;
     color: black;
 }
 .p22{
@@ -99,7 +117,9 @@
     
 }
 
-.line{
-    margin-bottom: 20px;
-}
 
+
+.nameInput{
+    display: flex;
+    justify-content: space-between;
+}

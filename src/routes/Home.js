@@ -1,7 +1,6 @@
 import React from "react"
 import HomeHero from "../components/HomeHero.js"
 import Navbar from '../components/Navbar'
-import ServicesSection from "../components/ServicesSection.js"
 import WHO from '../components/WHO'
 import FAQ from "../components/FAQ.js"
 import Testimonies from "../components/Testimonies.js"
@@ -9,6 +8,7 @@ import FeedbackAttributes from "../components/FeedbackAttributes.js"
 import Footer from "../components/Footer.js"
 
 import Navbar1 from "../components/Navbar1.js"
+import SpecialServicesDemo from "../components/SpecialServicesDemo.js"
 
 
 
@@ -20,7 +20,8 @@ function Home () {
             <Navbar/>
             <HomeHero/>
             <WHO />
-            <ServicesSection />
+            
+            <SpecialServicesDemo/>
             <FAQ />
             <Testimonies/>
             <FeedbackAttributes/>

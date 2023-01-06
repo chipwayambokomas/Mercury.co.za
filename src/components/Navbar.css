@@ -19,7 +19,7 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(7, auto);
-    grid-gap: 10px;
+    grid-gap: 40px;
     list-style: none;
     align-items: center;
 }
@@ -29,7 +29,7 @@
     color: #777777;
     font-size: 1.2rem;
     font-weight: 500;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 2rem;
     white-space: nowrap;
 }
 

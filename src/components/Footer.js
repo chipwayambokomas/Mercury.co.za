@@ -10,7 +10,7 @@ const Footer = () => {
 
         <div className='bottom'>
         <div className='yolo'>
-            <img src='https://www.mercury.co.zm/wp-content/uploads/2018/10/logo-300.png' alt='mercury logo' width={300} height={92} className="logo1" />
+            <img src='https://www.mercury.co.zm/wp-content/uploads/2018/10/logo-300.png' alt='mercury logo' width={150} height={46} className="logo1" />
             <p>Effective, Efficient & Excellent - One</p>
             <p>stop solution for your logistics</p>
             <p>services. Globally, the company has</p>
@@ -31,6 +31,7 @@ const Footer = () => {
                     <i className='fa-brands fa-twitter-square'></i>
                 </a>
             </div>
+      
             
             <div>
             <h4>Company</h4>
@@ -57,7 +58,7 @@ const Footer = () => {
         <div className='me'>
             <h4>Copyright © 2022-2023 | All rights reserved. Designed by: Saul Chipwayambokoma</h4>
         </div>
-      
+     
     </div>
   )
 }

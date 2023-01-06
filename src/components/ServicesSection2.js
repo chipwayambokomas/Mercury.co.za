@@ -5,7 +5,7 @@ import pic2 from '../assests/planepicture.jpg'
 import pic3 from '../assests/shippicture.png'
 import pic4 from '../assests/truckpicture.png'
 import { Link } from 'react-router-dom'
-
+import './ServicesSection.css'
 function ServicesSection2() {
 
     const [data, setData] = useState('Air Transport Services')

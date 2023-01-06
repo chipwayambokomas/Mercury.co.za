@@ -31,13 +31,13 @@ function FeedbackAttributes() {
                 <h1>YOUR FEEDBACK FOR US</h1>
                 <form>
                  
-                    <input placeholder='First name'/>
-                    <input placeholder='Last name'/>
-                    <input placeholder='Email'/>
-                    
-                    
-                    <input placeholder='Telephone (optionl)'/>
-                    <input placeholder='Subject'/>
+                 <div className='nameInput'>
+                    <input placeholder='First name' className='money'/>
+            
+                    <input placeholder='Email'/></div>
+                    <div className='phoneInput'>
+                    <input placeholder='Telephone (optionl)' className='money'/>
+                    <input placeholder='Subject'/></div>
                    
                     <textarea placeholder='How can we help you?' rows='4'></textarea>
                     <button>I AM NOT A ROBOT (Requires site to be live)</button>
