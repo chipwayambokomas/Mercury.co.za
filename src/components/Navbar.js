@@ -18,9 +18,14 @@ class Navbar extends Component {
 
 
       <nav className='NavbarItems'>
-        
-        <img src='https://www.mercury.co.zm/wp-content/uploads/2018/10/logo-300.png' alt='mercury logo' width={150} height={46} className="logo" />
-        
+        <ul>
+          <li>
+            <Link to='/'>
+            <img src='https://www.mercury.co.zm/wp-content/uploads/2018/10/logo-300.png' alt='mercury logo' width={150} height={46} className="logo" />
+            </Link>
+          </li>
+        </ul>
+                
         <div className='menu-icons' onClick={this.handleClick}>
           <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>

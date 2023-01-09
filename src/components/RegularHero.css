@@ -1,12 +1,11 @@
 .Regularhero {
     width: 100%;
-    height: 100%;
     position: relative;
 }
 
 .FAQhomeimg {
     width: 100%;
-    height: 100%;
+
     object-fit: cover;
 }
 
@@ -18,6 +17,8 @@
     width: 100%;
     margin-left: 20px;
     margin-top: 40px;
+background-color: red;
+
 
 }
 
@@ -71,12 +72,13 @@ color: #FFFFFF;
 .RegularHero-Backgroundtext h1{
   
     font-weight: 700;
-    font-size: 300px;
-    line-height: 402px;
+    font-size: 200px;
+    line-height: 0px;
     /* identical to box height */
 
     text-align: center;
-    letter-spacing: 0.01em;
+    
+    
 
     opacity: 0.17;
 

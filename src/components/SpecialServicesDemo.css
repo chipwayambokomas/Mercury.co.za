@@ -1,5 +1,6 @@
 .SpecialServices {
-    margin: 4rem 6rem;
+    margin: 0px 6rem;
+
 }
 
 .SpecialServices h1{
@@ -38,7 +39,7 @@ padding-bottom: 50px;
     height: 125px;
     background-color: transparent;
     position: absolute;
-    top: 353%;
+    top: 321%;
     left: 63.4%;
     transform: translate(-50%, -50%);
     
@@ -87,7 +88,7 @@ font-weight: 400px;
         width: 445px;
 height: 459px;
 position: absolute;
-top: 311%;
+top: 280%;
 left: 20%;
 transform: translate(-50%, -50%);
 align-items: stretch;
@@ -114,7 +115,7 @@ align-items: stretch;
 height: 335px;
 background-color: #FF5300;
 position: absolute;
-top: 309.5%;
+top: 278.5%;
 left: 9%;
 transform: translate(-50%, -50%);
 
@@ -125,7 +126,7 @@ transform: translate(-50%, -50%);
     height: 240px;
     background-color: #DFDFDF;
     position: absolute;
-    top: 309.5%;
+    top: 278.5%;
     left: 9%;
     transform: translate(-50%, -50%);
     
@@ -136,7 +137,7 @@ transform: translate(-50%, -50%);
     height: 240px;
     background-color: #DFDFDF;
     position: absolute;
-    top: 316.7%;
+    top: 285.7%;
     left: 9%;
     transform: translate(-50%, -50%);
     
@@ -147,7 +148,7 @@ transform: translate(-50%, -50%);
 display: flex;
 position: absolute;
 flex-direction: column;
-top: 340.9%;
+top: 309.9%;
 left: 9%;
 transform: translate(-50%, -50%);
 }
@@ -175,7 +176,7 @@ line-height: 28px;
         justify-content: flex-start;
         color: white;
 position: absolute;
-top: 311%;
+top: 280%;
 left: 12%;
 transform: translate(-50%, -50%);
 align-items: stretch;

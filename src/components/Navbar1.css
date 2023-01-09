@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #013A6B;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -17,7 +17,7 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(7, auto);
-    grid-gap: 10px;
+    grid-gap: 1px;
     list-style: none;
     align-items: center;
 }
@@ -33,7 +33,7 @@
 }
 
 .nav-links1 i {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 

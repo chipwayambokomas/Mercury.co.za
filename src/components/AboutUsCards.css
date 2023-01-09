@@ -1,0 +1,52 @@
+.serviceDetailCardA{
+    
+        width: 555px;
+        height: 240px;
+        background: #013A6B;
+        text-align: start;
+        position: absolute;
+        top: 168%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        
+}
+
+.serviceDetailCard1A{
+    width: 555px;
+    height: 420px;
+    background: #013A6B;
+    text-align: start;
+    position: absolute;
+    top: 260%;
+    right: -20%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.partners h1{
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    
+    color: #013A6B;
+    padding-bottom: 30px;
+    text-align: start;
+}
+
+.partners{
+    padding: 15px 6rem;
+    text-align: start;
+    padding-bottom: 30px;
+}
+
+.pic1A{
+    
+        left: 1440px;
+        margin-left: 530px;
+        margin-bottom: 50px;
+    
+    
+    
+}

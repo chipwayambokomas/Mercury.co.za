@@ -15,7 +15,7 @@
    
 
 .hero{
-    width: 100%;
+    width: 30%;
     
     position: relative;
 }
@@ -80,5 +80,13 @@
 
  .b21{
     color: #FAFAFA;
-    background-color: #013A6B   
+    background: #013A6B;
+border: 1px solid #013A6B;
+border-radius: 5px;
+
+ }
+
+ .homeimg{
+    height: 535px;
+
  }

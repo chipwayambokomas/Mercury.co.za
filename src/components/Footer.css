@@ -30,6 +30,17 @@
 
 }
 
+.yolo p{
+    font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Color / Gray 4 */
+
+color: #F8F8F8;
+padding-bottom: 20px;
+}
 
 .bottom h4{
     margin-top: 60px;
@@ -53,10 +64,13 @@
     color: #FFFFFF;
     font-size: 1.4rem;
     margin-left: 1rem;
-    margin-bottom: 38px;
+    margin-bottom: 3px;
+    
    
 }
-
+.yolo1{
+    margin-top: 70px;
+}
 .yolo{
     padding-top: 2rem;
     text-align: start;

@@ -1,0 +1,27 @@
+.intro {
+    padding: 15px 6rem;
+    text-align: start;
+}
+
+.intro h1{
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    
+    color: #013A6B;
+    padding-bottom: 20px;
+}
+
+.intro p{
+    padding-bottom: 30px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #6A6A6A;
+
+}

@@ -8,22 +8,27 @@ export const LatestData = [
     {
         image:pic1,
         preview: 'Minimal Post With A Preview Image',
+        link:'/'
     },
     {
         image:pic2,
         preview: 'Good Design Makes Me Happy',
+        link:'/'
     },
     {
         image:pic3,
         preview: 'Best 27 Design Blogs for 2021',
+        link:'/'
     },
     {
         image:pic4,
         preview: 'Creative Ways To Use Infographics For Your Business',
+        link:'/'
     },
     {
         image:pic5,
         preview:'Tumblr Banner Templates : Tips To Get Better Engagement',
+        link:'/'
     },
 
 ]

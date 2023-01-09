@@ -1,9 +1,8 @@
 import './SpecialServicesDemo.css'
-
-import distribution from '../assests/distribution.png'
-import warehousing from '../assests/warehouse.jpg'
-import exportexpress from '../assests/exportexpress.jpg'
-import importexpress from '../assests/importexpress.jpg'
+import distribution from '../assests/distribution.jpg'
+import airfreight from '../assests/airfreight.jpg'
+import oceanfreight from '../assests/oceanfreight.jpg'
+import importexpress from '../assests/internationalexpress.jpg'
 import domesticexpress from '../assests/domesticexpress.jpg'
 import roadexpress from '../assests/roadexpress.jpg'
 
@@ -22,17 +21,20 @@ function SpecialServicesDemo() {
     };
 
     const lists = [
-      { id: 1, title: "Distribution", presentation: 'link1' },
-      { id: 2, title: "Warehousing", presentation: 'link2' },
-      { id: 3, title: "Export Express", presentation: 'link3' },
-      { id: 4, title: "Import Express", presentation: 'link4' },
-      { id: 5, title: "Domestic Express", presentation: 'link5' },
-      { id: 6, title: "Road Express", presentation: 'link6' }
+      { id: 1, title: "Domestic Express", presentation: 'link1'},
+      { id: 2, title: "International Express", presentation: 'link2' },
+      { id: 3, title: "Road Freight", presentation: 'link3' },
+      { id: 4, title: "Air Freight", presentation: 'link4' },
+      { id: 5, title: "Ocean Freight", presentation: 'link5' },
+      { id: 6, title: "Distribution & Warehousing", presentation: 'link6' }
+      
+       
+      
   ];
 
   const [data, setData] = useState('Our services extend beyond the walls of the warehouse. You can rely on us for your distribution service.')
 
-  const [picData, setPicData] = useState(distribution)
+  const [picData, setPicData] = useState(domesticexpress)
 
   
   const [pageData, setPageData] = useState("01")
@@ -44,17 +46,17 @@ function SpecialServicesDemo() {
     setPageData('01')
 
 }
-function warehousingf() {
+function airfreightf() {
 
     setData('Mercury Express Logistics currently offers over 10,000 sqm2 warehousing space, servicing all storage and cross-docking requirements.')
-    setPicData(warehousing)
+    setPicData(airfreight)
     setPageData('02')
 
 }
-function exportexpressf() {
+function oceanfreightf() {
 
     setData('Mercury Express Logistics provides global door-to-door shipping solutions for your packages. With Export Express, you can ship and send your packages, door-to-door and to anywhere in the world all you need to do is visit an office near you.')
-    setPicData(exportexpress)
+    setPicData(oceanfreight)
     setPageData('03')
 
 }
@@ -74,7 +76,7 @@ function domesticexpressf() {
 }
 function roadexpressf() {
 
-  setData('With Road Express, is guaranteed extensive and affordable domestic delivery of parcels between all towns within Zambia.')
+  setData('With Road Freight, is guaranteed extensive and affordable domestic delivery of parcels between all towns within Zambia.')
   setPicData(roadexpress)
   setPageData('06')
 
@@ -83,17 +85,17 @@ function roadexpressf() {
 function both(list) {
 
   if(list.id ===1)
-  {distributionf()}
+  {domesticexpressf()}
   else if (list.id ===2) {
-      warehousingf()
+      importexpressf()
   } else if (list.id===3) {
-    exportexpressf()
-  } else if (list.id===4) {
-    importexpressf()
-  } else if (list.id===5) {
-    domesticexpressf()
-  } else {
     roadexpressf()
+  } else if (list.id===4) {
+    airfreightf()
+  } else if (list.id===5) {
+    oceanfreightf()
+  } else {
+    distributionf()
   }
   
   handleColor(list)
@@ -101,7 +103,7 @@ function both(list) {
   return (
     <div className='SpecialServices'>
 
-      <h1>Special Services</h1>
+      <h1>Our Services</h1>
 
       <p className='SpecialServicesDes'>Globally known for our ability to handle every last detail of our customers' particular logistics and forwarding needs, Memory Logistic's Special Services team takes care of all your logistics.</p>
 

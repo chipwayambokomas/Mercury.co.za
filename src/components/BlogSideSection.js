@@ -1,6 +1,7 @@
 import './BlogSideSection.css'
 import React from 'react'
 import { LatestData, CategoryData } from './BlogSideSectionData'
+import { Link } from 'react-router-dom'
 
 function BlogSideSection() {
   return (
@@ -16,7 +17,9 @@ function BlogSideSection() {
                 return(
             <div className='posts' key={index}>
             <img alt='latestpic' className='latestpic' src={item.image}></img>
+            <ul><li><Link to={item.link} className='Alink1'> 
             <p>{item.preview}</p>
+            </Link></li></ul>
             </div>
             )
         })}

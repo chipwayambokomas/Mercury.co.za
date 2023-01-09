@@ -10,14 +10,17 @@ const Footer = () => {
 
         <div className='bottom'>
         <div className='yolo'>
-            <img src='https://www.mercury.co.zm/wp-content/uploads/2018/10/logo-300.png' alt='mercury logo' width={150} height={46} className="logo1" />
-            <p>Effective, Efficient & Excellent - One</p>
-            <p>stop solution for your logistics</p>
-            <p>services. Globally, the company has</p>
-             <p>access to over 200,000.</p>
+            
+            <p>Effective, Efficient & Excellent - On</p>
+                <p>stop solution for your logistics</p>
+                    <p>services. Globally, the company has</p>
+                        <p>access to over 200,000.</p>
+
+          
+
             </div>
 
-            <div className='yolo1'>
+               <div className='yolo1'>
             <a href='https://web.facebook.com/MercuryExpressLogisticsZambia/?_rdc=1&_rdr'>
                     <i className='fa-brands fa-facebook-square'></i>
                 </a>

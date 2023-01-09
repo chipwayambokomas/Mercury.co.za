@@ -1,7 +1,7 @@
 .pic1 {
     left: 1440px;
     margin-left: 380px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 
 }
@@ -12,7 +12,7 @@
     background: #013A6B;
     text-align: start;
     position: absolute;
-    top: 180%;
+    top: 151%;
     left: 20%;
     transform: translate(-50%, -50%);
     
@@ -60,7 +60,7 @@
 .pic2 {
     left: 1440px;
     margin-right: 380px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 
 }
@@ -71,7 +71,7 @@
     background: #013A6B;
     text-align: start;
     position: absolute;
-    top: 291%;
+    top: 254%;
     right: -20%;
     transform: translate(-50%, -50%);
     
@@ -111,8 +111,8 @@
 }
 
 .ShiftingButtons button{
-    width: 262px;
-height: 81px;
+    width: 242px;
+height: 61px;
 border-radius: none;
 box-shadow: none;
 border: 1px solid #FFFFFF;
@@ -122,8 +122,8 @@ color: #FFFFFF;
 
 .ShiftingButtonsb1{
     position: absolute;
-top: 332.6%;
-left: 9.7%;
+top: 298%;
+left: 8.94%;
 transform: translate(-50%, -50%);
 
 }
@@ -142,15 +142,15 @@ transform: translate(-50%, -50%);
 
 .ShiftingButtonsb2{
     position: absolute;
-top: 332.6%;
-left: 29.1%;
+top: 298%;
+left: 26.8%;
 transform: translate(-50%, -50%);
 }
 
 .ShiftingButtonsb3{
     position: absolute;
-top: 332.6%;
-left: 48.5%;
+top: 298%;
+left: 44.7%;
 transform: translate(-50%, -50%);
 }
 
