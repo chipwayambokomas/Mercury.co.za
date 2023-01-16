@@ -24,6 +24,8 @@
     font-size: 1.1rem;
     margin-left: 100px;
     color: #013A6B;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .whoweare-text h1 {
@@ -32,7 +34,8 @@
     font-size: 39.06px;
     line-height: 49px;
     /* identical to box height */
-
+    font-family: 'Mulish';
+    font-style: normal;
 
     color: #013A6B;
 
@@ -44,7 +47,8 @@
     font-size: 18px;
     line-height: 240%;
     /* or 43px */
-
+    font-family: 'Mulish';
+    font-style: normal;
 
     color: #454545;
 
@@ -52,6 +56,8 @@
 
 .b1 {
     list-style-type: none;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .whowearebutton {
@@ -61,6 +67,8 @@
     background-color: transparent;
     width: 206px;
     height: 55px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .b1 i {
@@ -76,6 +84,8 @@
     display: flex;
     justify-content: space-between;
     z-index: -99;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .section-1 img {
@@ -118,11 +128,15 @@
 .pageButtons {
     display: flex;
     margin-top: 75px;
+    font-family: 'Mulish';
+font-style: normal;
     margin-left: 230px;
 }
 
 .pageButtons button {
     padding-right: 18px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .Parcels {
@@ -132,6 +146,8 @@
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     width: 270px;
     height: 250px;
+    font-family: 'Mulish';
+font-style: normal;
     text-align: center;
     position: absolute;
     top: 130%;
@@ -147,6 +163,8 @@
     width: 270px;
     height: 250px;
     text-align: center;
+    font-family: 'Mulish';
+font-style: normal;
     position: absolute;
     top: 175%;
     left: 67.4%;
@@ -162,6 +180,8 @@
     height: 250px;
     text-align: center;
     position: absolute;
+    font-family: 'Mulish';
+font-style: normal;
     top: 179%;
     left: 89.4%;
     transform: translate(-50%, -50%);
@@ -177,6 +197,8 @@
     height: 250px;
     text-align: center;
     position: absolute;
+    font-family: 'Mulish';
+font-style: normal;
     top: 135%;
     left: 89.4%;
     transform: translate(-50%, -50%);
@@ -196,7 +218,8 @@
     font-size: 48px;
     line-height: 123.6%;
     /* or 59px */
-
+    font-family: 'Mulish';
+    font-style: normal;
     text-align: center;
     text-transform: capitalize;
 
@@ -211,6 +234,8 @@
     font-size: 22px;
     line-height: 123.6%;
     /* or 27px */
+    font-family: 'Mulish';
+font-style: normal;
 
     text-align: center;
     text-transform: capitalize;

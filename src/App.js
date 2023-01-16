@@ -10,6 +10,8 @@ import Contact from './routes/Contact';
 import Blog from './routes/Blog';
 import Login from './routes/Login';
 import FAQpage from './routes/FAQpage';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {

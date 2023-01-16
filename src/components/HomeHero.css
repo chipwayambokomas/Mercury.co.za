@@ -1,12 +1,16 @@
 .p1{
     font-size: small;
     color: white;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .p2, .p3, .p4, .p5, .p6{
     font-size: medium;
     color: white;
     padding-bottom: 20px;
+    font-family: 'Mulish';
+font-style: normal;
     
 }
 
@@ -27,6 +31,8 @@
     left: 50%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
     transform: translate(-50%,-50%);
     width: 100%;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .hero-text h1{
@@ -35,18 +41,22 @@
     background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    font-family: 'Mulish';
+    font-style: normal;
 }
 
 .h1{
     margin-bottom: 60px;
-
+    font-family: 'Mulish';
+    font-style: normal;
 }
 
 .sec1{
     margin-left: 100px;
     padding-bottom: 5px;
     margin-bottom: 70px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 
@@ -75,6 +85,8 @@
     padding: 0 1rem;
     border-radius: .3rem;
     border: 1px solid #013A6B;
+    font-family: 'Mulish';
+font-style: normal;
  
 }
 
@@ -83,6 +95,8 @@
     background: #013A6B;
 border: 1px solid #013A6B;
 border-radius: 5px;
+font-family: 'Mulish';
+font-style: normal;
 
  }
 

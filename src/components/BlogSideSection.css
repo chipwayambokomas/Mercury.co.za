@@ -5,6 +5,8 @@
     left: 83%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
     transform: translate(-50%,-50%);
     width: 370px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .BlogSideSection input{
@@ -44,6 +46,8 @@ background: #FFFFFF;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
     background: #FFFFFF;
+    font-family: 'Mulish';
+font-style: normal;
 /* Effect-1 */
 
 }
@@ -57,7 +61,8 @@ font-size: 25px;
 line-height: 123.6%;
 /* identical to box height, or 31px */
 
-
+font-family: 'Mulish';
+font-style: normal;
 /* Black */
 
 color: #373737;
@@ -68,6 +73,8 @@ margin-bottom: 30px;
 .posts{
     display: flex;
     align-items: center;
+    font-family: 'Mulish';
+font-style: normal;
     padding-bottom: 40px;
 }
 
@@ -81,6 +88,8 @@ margin-bottom: 30px;
     text-align: start;
    
     font-weight: 400;
+    font-family: 'Mulish';
+font-style: normal;
 font-size: 20px;
 line-height: 143.6%;
 /* or 29px */
@@ -96,6 +105,8 @@ color: #373737;
     margin-top: 40px;
     /* White */
     ;
+    font-family: 'Mulish';
+font-style: normal;
     
     background: #FFFFFF;
     /* Effect-1 */
@@ -112,6 +123,8 @@ color: #373737;
     align-items: center;
     padding-bottom: 40px;
     justify-content: space-between;
+    font-family: 'Mulish';
+font-style: normal;
 
 }
 
@@ -122,7 +135,8 @@ color: #373737;
 font-size: 20px;
 line-height: 123.6%;
 /* identical to box height, or 25px */
-
+font-family: 'Mulish';
+font-style: normal;
 
 /* Gray ( Paragraph ) */
 
@@ -136,6 +150,8 @@ height: 30px;
 border: 1px solid #7B7B7B;
 color: #7B7B7B;
 margin-right: 18px;
+font-family: 'Mulish';
+font-style: normal;
 
 }
 
@@ -152,6 +168,8 @@ margin-right: 18px;
     border-radius: 10px;
         background: #FFFFFF;
     /* Effect-1 */
+    font-family: 'Mulish';
+font-style: normal;
 
 }
 
@@ -161,8 +179,10 @@ margin-right: 18px;
     padding-bottom: 40px;
     justify-content: space-between;
 
-
-
+    font-family: 'Mulish';
+    font-style: normal;
+    font-family: 'Mulish';
+    font-style: normal;
 }
 
 .tags1 button{
@@ -173,7 +193,10 @@ background-color: #FFF7F4;
 text-align: center;
 /* Gray ( Paragraph ) */
 border: 1px solid transparent;
-
+font-family: 'Mulish';
+font-style: normal;
+font-family: 'Mulish';
+font-style: normal;
 color: #7B7B7B;
 font-weight: 400;
 font-size: 16px;
@@ -184,9 +207,13 @@ line-height: 150.6%;
 .tagname1{
 
     margin-left: 33px;
+    font-family: 'Mulish';
+font-style: normal;
 
 }
 .tagname2{
     margin-right: 33px;
+    font-family: 'Mulish';
+font-style: normal;
     /* Gray ( Paragraph ) */}
 

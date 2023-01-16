@@ -1,0 +1,75 @@
+.ButtonsTestimonies{
+  display: flex;
+  justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 0;
+    align-items: center;
+  
+}
+
+.ButtonsTestimonies h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    text-align: start;
+    margin-top: 50px;
+    font-family: 'Mulish';
+font-style: normal; 
+ margin: 0px 6rem;
+    color: #013A6B;
+}
+
+.Actually{
+    padding-right: 100px;
+    color: #013A6B;
+    display: flex;
+    transition: all ease-in-out 0.5s;
+    
+    
+}
+
+.LB{
+    font-size: 35px;
+    background: #FAFAFA;
+border: 1px solid #013A6B;
+border-radius: 5px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-right: 10px;
+transition: all ease-in-out 0.5s;
+cursor: pointer;
+}
+
+.RB{
+    font-size: 35px;
+    background: #FAFAFA;
+border: 1px solid #013A6B;
+border-radius: 5px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+transition: all ease-in-out 0.5s;
+cursor: pointer;
+
+}
+
+
+.slick-slide > div{
+  margin: 0 36px;
+}
+.slick-list {
+  margin: 0 -36px;
+}
+
+.LB:hover, .RB:hover{
+    font-size: 35px;
+    background: #013A6B;
+border: 1px solid white;
+color: white;
+
+}
+
+

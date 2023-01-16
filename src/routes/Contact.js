@@ -3,6 +3,9 @@ import Navbar from '../components/Navbar'
 import Navbar1 from '../components/Navbar1'
 import RegularHero from '../components/RegularHero'
 import homeimage from '../assests/regular.png'
+import Footer from '../components/Footer'
+import MercuryBranches from '../components/MercuryBranches'
+
 
 function Contact() {
   return (
@@ -19,6 +22,8 @@ function Contact() {
         des2='placeholder text commonly used to demonstrate'
         backgroundTitle='CONTACT US'
         />
+        <MercuryBranches/>
+        <Footer/>
         
     </>
   )

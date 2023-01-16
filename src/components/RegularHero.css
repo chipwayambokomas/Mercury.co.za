@@ -46,6 +46,8 @@ line-height: 123.6%;
 text-transform: capitalize;
 
 color: #FFFFFF;
+font-family: 'Mulish';
+font-style: normal;
 
 }
 
@@ -59,7 +61,8 @@ font-weight: 100px;
 font-size: 20px;
 line-height: 150.6%;
 /* or 36px */
-
+font-family: 'Mulish';
+font-style: normal;
 
 color: #FFFFFF;
 
@@ -77,9 +80,7 @@ color: #FFFFFF;
     /* identical to box height */
 
     text-align: center;
-    
-    
-
+ 
     opacity: 0.17;
 
     -webkit-text-stroke-width: 4px;

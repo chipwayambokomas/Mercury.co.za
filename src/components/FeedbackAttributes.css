@@ -4,6 +4,8 @@
     justify-content: space-between;
     margin-top: 0rem;
     border-width: 100%;
+    font-family: 'Mulish';
+font-style: normal;
     
 }
 
@@ -13,7 +15,7 @@
     border-radius: 15px;
     border: 1px solid #013A6B;
     padding: 3rem 3rem 3rem;
-    margin-right: 150px;
+    margin-right: 120px;
     
 }
 
@@ -37,6 +39,8 @@
 }
 .money{
     margin-right: 15.68px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 
@@ -50,6 +54,8 @@
 
 .Alink1, .Alink2 , .Alink3, .Alink4{
     text-decoration: none;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .form-container button{
@@ -57,11 +63,14 @@
     padding: 1rem 1rem 1rem 1rem;
     margin-bottom: 15px;
     text-align: center;   
+    font-family: 'Mulish';
+font-style: normal;
 }
 
  .b21{
     color: #FAFAFA;
-    background-color: #013A6B   
+    background-color: #013A6B 
+     
  }
 
 .attributes{
@@ -72,6 +81,8 @@
     color: #013A6B;
     margin-left: 150px;
     text-decoration: none;
+    font-family: 'Mulish';
+font-style: normal;
 
 }
 
@@ -82,12 +93,16 @@
     margin-left: 100px;
     color: #013A6B;
     margin-left: 150px;
+    font-family: 'Mulish';
+font-style: normal;
 text-decoration: none;
 }
 
 .attributes h4{
     color: black;
     text-decoration: none;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .q1,.q2,.q3,.q4{
@@ -95,7 +110,8 @@ text-decoration: none;
     font-size: 15px;
     padding-bottom: 30px;
     
-    
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .attributes i{
@@ -108,16 +124,22 @@ text-decoration: none;
     padding-top: 30px;
     padding-bottom: 15px;
     color: black;
+    font-family: 'Mulish';
+font-style: normal;
 }
 .p22{
     
     padding-bottom: 40px;
     color: black;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .attributes h1{
     color: black;
     padding-bottom: none;
+    font-family: 'Mulish';
+font-style: normal;
     
 }
 
@@ -126,8 +148,12 @@ text-decoration: none;
 .nameInput{
     display: flex;
     justify-content: space-between;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 Link{
     text-decoration: none;
+    font-family: 'Mulish';
+font-style: normal;
 }

@@ -3,7 +3,7 @@ import HomeHero from "../components/HomeHero.js"
 import Navbar from '../components/Navbar'
 import WHO from '../components/WHO'
 import FAQ from "../components/FAQ.js"
-import Testimonies from "../components/Testimonies.js"
+import TestimoniesDemo from "../components/TestimoniesDemo.js"
 import FeedbackAttributes from "../components/FeedbackAttributes.js"
 import Footer from "../components/Footer.js"
 
@@ -23,7 +23,8 @@ function Home () {
             
             <SpecialServicesDemo/>
             <FAQ />
-            <Testimonies/>
+           
+            <TestimoniesDemo/>
             <FeedbackAttributes/>
             <Footer/>
             

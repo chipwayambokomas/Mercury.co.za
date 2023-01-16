@@ -8,6 +8,8 @@
         top: 168%;
         left: 20%;
         transform: translate(-50%, -50%);
+        font-family: 'Mulish';
+font-style: normal;
         
 }
 
@@ -20,7 +22,8 @@
     top: 260%;
     right: -20%;
     transform: translate(-50%, -50%);
-    
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .partners h1{
@@ -28,7 +31,8 @@
     font-size: 39.06px;
     line-height: 49px;
     /* identical to box height */
-    
+    font-family: 'Mulish';
+font-style: normal;
     
     color: #013A6B;
     padding-bottom: 30px;
@@ -39,6 +43,8 @@
     padding: 15px 6rem;
     text-align: start;
     padding-bottom: 30px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .pic1A{

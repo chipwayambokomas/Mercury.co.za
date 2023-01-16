@@ -7,10 +7,13 @@
     padding-bottom: 5px;
     padding-left: 50px;
     padding-right: 50px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .logo {
     cursor: pointer;
+    margin-left: 14px;
     
     
     
@@ -22,6 +25,8 @@
     grid-gap: 40px;
     list-style: none;
     align-items: center;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .nav-links {
@@ -31,6 +36,8 @@
     font-weight: 500;
     padding: 0.7rem 2rem;
     white-space: nowrap;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .nav-links i {
@@ -58,6 +65,8 @@ button {
     cursor: pointer;
     background: #fff;
     color: #013a6b;
+    font-family: 'Mulish';
+font-style: normal;
     transition: all 0.5s ease-in-out;
 }
 

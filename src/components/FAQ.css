@@ -9,16 +9,22 @@
     margin-bottom: 15px;
     text-align: start;
     margin-top: 50px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .Accordion p{
     text-align: start;
+    font-family: 'Mulish';
+font-style: normal;
     font-size: 18px;
 }
 
 .faqs, .faqs1{
     width: 100%;
     max-width: 768px;
+    font-family: 'Mulish';
+font-style: normal;
     margin: 0 auto;
     padding: 15px;
 }
@@ -42,6 +48,8 @@
     border-width: 2px;
     border-style: solid;
     cursor: pointer;
+    font-family: 'Mulish';
+font-style: normal;
 
 }
 
@@ -54,6 +62,8 @@
     border-color: #013A6B;
     border-width: 2px;
     border-style: solid;
+    font-family: 'Mulish';
+font-style: normal;
     cursor: pointer;
 }
 
@@ -62,7 +72,8 @@
     position: relative;
     font-size: 20px;
     padding-right: 80px;
-
+    font-family: 'Mulish';
+    font-style: normal;
 
     transition: all 0.5s  ease-in-out;
 
@@ -76,6 +87,8 @@
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
+    font-family: 'Mulish';
+font-style: normal;
 
 
     background-image: url('https://maxton.at/images/buttons/expand.svg');
@@ -91,6 +104,8 @@
     font-size: 20px;
     padding-right: 80px;
     transition: all 0.5s ease-in-out;
+    font-family: 'Mulish';
+font-style: normal;
 
 }
 
@@ -101,6 +116,8 @@
     right: 0px;
     transform: translateY(-50%);
     width: 30px;
+    font-family: 'Mulish';
+font-style: normal;
     height: 30px;
 
     background-image: url('https://maxton.at/images/buttons/expand.svg');
@@ -116,6 +133,8 @@
     max-height: 0;
     overflow-y: hidden;
     transition: all 0.5s ease-in-out;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 
@@ -124,33 +143,48 @@
     max-height: 0;
     overflow-y: hidden;
     transition: all 0.5s ease-in-out;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .faqs .faq.open .faq-question{
     margin-bottom: 15px;
-
+    font-family: 'Mulish';
+    font-style: normal;
 }
 
 .faqs1 .faq1.open .faq-question1{
     margin-bottom: 15px;
+    font-family: 'Mulish';
+font-style: normal;
 
 }
 
 .faqs .faq.open .faq-question::after{
+    font-family: 'Mulish';
+font-style: normal;
     transform: translateY(-50%) rotate(45deg);
 }
+
 
 .faqs .faq.open .faq-answer{
     max-height: 1000px;
     opacity: 1;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 
 .faqs1 .faq1.open .faq-question1::after{
+    font-family: 'Mulish';
+    font-style: normal;
+  
     transform: translateY(-50%) rotate(45deg);
 }
 
 .faqs1 .faq1.open .faq-answer1{
     max-height: 1000px;
     opacity: 1;
+    font-family: 'Mulish';
+font-style: normal;
 }

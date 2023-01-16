@@ -1,6 +1,8 @@
 .intro {
     padding: 15px 6rem;
     text-align: start;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .intro h1{
@@ -9,7 +11,8 @@
     line-height: 49px;
     /* identical to box height */
     
-    
+    font-family: 'Mulish';
+font-style: normal;
     color: #013A6B;
     padding-bottom: 20px;
 }
@@ -18,6 +21,8 @@
     padding-bottom: 30px;
     font-weight: 500;
 font-size: 20px;
+font-family: 'Mulish';
+font-style: normal;
 line-height: 30px;
 /* or 150% */
 

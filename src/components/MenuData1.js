@@ -1,6 +1,6 @@
 export const MenuData1 = [
     {
-        title:"+260971 269390-29",
+        title:"+260971269390-29",
         url: '/',
         cName:"nav-links1",
         icon: 'fa-solid fa-phone',

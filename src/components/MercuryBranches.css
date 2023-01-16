@@ -1,0 +1,300 @@
+.SC1A,
+.SC2A,
+.SC3A {
+
+    text-align: start;
+    width: 380px;
+    height: 220px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background-color:  rgba(1, 58, 107, 0.05);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.MercuryBranches h1{
+    font-weight: 800;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 45px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: start;
+    padding-left: 92px;
+    padding-top: 20px;
+    
+    
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.Titleoftitles{
+    font-weight: 800;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 45px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: start;
+    padding-left: 92px;
+    padding-top: 20px;
+    
+    
+    color: #233367;
+    padding-bottom: 20px;
+
+}
+.cardboundry{
+    width: 100%;
+    height: 100px;
+    background-color: #233367;
+}
+
+.form-containerA{
+    margin: 2rem 6rem;
+    color: #013A6B;
+    border-radius: 10px;
+    border: 1px solid #013A6B;
+    padding: 1rem 3rem 3rem;
+    margin-right: 150px;
+    width: 520px;
+    position: absolute;
+    top: 84%;
+    left: 62%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+    transform: translate(-50%,-50%);
+    
+}
+
+.form-containerA button{
+    display: inline;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 5px;
+    text-align: center;   
+    font-family: 'Mulish';
+font-style: normal;
+}
+
+ .b21A{
+    color: #FAFAFA;
+    background-color: #013A6B   
+ }
+ .form-containerA{
+    margin: 4rem 6rem;
+    color: #013A6B;
+    border-radius: 15px;
+    border: 1px solid #013A6B;
+    padding: 1rem 1rem 1rem;
+    margin-right: 150px;
+    
+}
+
+
+
+.form-containerA form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.form-containerA input{
+    height: 3rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+    border: 1px solid #013A6B;
+
+}
+.moneyA{
+    margin-right: 15.68px;
+}
+
+
+.form-containerA textarea{
+    padding: .6rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #013A6B;
+
+}
+
+.SC1A:hover,
+.SC2A:hover,
+.SC3A:hover {
+
+    background-color: #233367;
+
+
+}
+
+
+.SC1A i{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #233367;
+    padding-right: 15px;
+    
+}
+.SC2A i{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #233367;
+    padding-right: 15px;
+    
+    
+}
+.SC3A i{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #233367;
+    padding-right: 15px;
+    
+}
+
+.cardname-SC{
+    padding-top: 10px;
+    margin-left: 45px;
+    color: #233367;
+    font-weight: 800;
+    font-family: 'Mulish';
+font-style: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+letter-spacing: 0.1px;
+
+}
+.cardname-SCAA{
+    padding-top: 10px;
+    margin-left: 45px;
+    color: #233367;
+    font-weight: 800;
+font-size: 18px;
+font-family: 'Mulish';
+font-style: normal;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+letter-spacing: 0.1px;
+
+
+}
+.cardname-SC1{
+    padding-top: 10px;
+    margin-left: 45px;
+    color: #233367;
+    font-weight: 800;
+font-size: 15px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+letter-spacing: 0.1px;
+font-family: 'Mulish';
+font-style: normal;
+
+
+}
+
+.carddes1-SC2{
+
+
+    margin-left: 45px;
+    color: #233367;
+    font-weight: 800;
+font-size: 15px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+letter-spacing: 0.1px;
+font-family: 'Mulish';
+font-style: normal;
+
+
+}
+
+.carddes11-SC2{
+
+    padding-top: 0px;
+    margin-left: 45px;
+    color: #6A6A6A;
+    font-weight: 700;
+font-size: 14px;
+line-height: 0px;
+/* identical to box height, or 145% */
+
+letter-spacing: 0.1px;
+font-family: 'Mulish';
+font-style: normal;
+
+
+}
+.carddes11-SC2AA{
+
+    padding-top: 0px;
+    margin-left: 45px;
+    color: #6A6A6A;
+    font-weight: 700;
+font-size: 12px;
+line-height: 0px;
+/* identical to box height, or 145% */
+font-family: 'Mulish';
+font-style: normal;
+letter-spacing: 0.1px;
+
+
+}
+
+.carddes-SC2{
+
+    margin-left: 45px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+color: #6A6A6A;
+
+font-family: 'Mulish';
+font-style: normal;
+
+
+}
+
+
+.SC1A:hover i{
+    
+    color: white;
+    
+}
+.SC2A:hover i{
+    
+    color: white;
+    
+}
+.SC3A:hover i{
+    
+    color: white;
+    
+}
+.SC1A:hover p{
+    
+    color: white;
+    
+}
+.SC2A:hover p{
+    
+    color: white;
+    
+}
+.SC3A:hover p{
+    
+    color: white;
+    
+}

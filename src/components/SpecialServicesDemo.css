@@ -10,7 +10,8 @@ font-size: 39.06px;
 line-height: 49px;
 /* identical to box height */
 
-
+font-family: 'Mulish';
+font-style: normal;
 color: #013A6B;
 padding-bottom: 20px;
 }
@@ -19,6 +20,8 @@ padding-bottom: 20px;
     font-weight: 500;
 font-size: 20px;
 line-height: 30px;
+font-family: 'Mulish';
+font-style: normal;
 /* or 150% */
 
 
@@ -42,6 +45,8 @@ padding-bottom: 50px;
     top: 321%;
     left: 63.4%;
     transform: translate(-50%, -50%);
+    font-family: 'Mulish';
+font-style: normal;
     
     
 
@@ -54,6 +59,8 @@ padding-bottom: 50px;
 
     font-weight: 500px;
 font-size: 18px;
+font-family: 'Mulish';
+font-style: normal;
 line-height: 32px;
 /* or 179% */
 
@@ -72,7 +79,8 @@ height: 44px;
 border: 1px solid #FFFFFF;
 border-radius: 5px;
 font-weight: 400px;
-
+font-family: 'Mulish';
+font-style: normal;
 }
 
 .ServicePageReadmore:hover{
@@ -88,10 +96,12 @@ font-weight: 400px;
         width: 445px;
 height: 459px;
 position: absolute;
-top: 280%;
+top: 279%;
 left: 20%;
 transform: translate(-50%, -50%);
 align-items: stretch;
+font-family: 'Mulish';
+font-style: normal;
 }
 
 .link1{
@@ -100,6 +110,8 @@ align-items: stretch;
     font-size: 24px;
     margin-left: 130px;
     padding-top: 55px;
+    font-family: 'Mulish';
+font-style: normal;
     text-align: start;
 }
 .link2, .link3, .link4, .link5, .link6{
@@ -107,6 +119,8 @@ align-items: stretch;
     text-decoration: none;
     font-size: 24px;
     margin-left: 130px;
+    font-family: 'Mulish';
+font-style: normal;
     text-align: start;
 }
 
@@ -151,6 +165,8 @@ flex-direction: column;
 top: 309.9%;
 left: 9%;
 transform: translate(-50%, -50%);
+font-family: 'Mulish';
+font-style: normal;
 }
 
 .CurrentPage{
@@ -159,7 +175,8 @@ transform: translate(-50%, -50%);
     font-weight: 500;
 font-size: 16px;
 line-height: 28px;
-
+font-family: 'Mulish';
+font-style: normal;
 
 }
 .noOfPages{
@@ -168,6 +185,8 @@ line-height: 28px;
     font-weight: 500;
 font-size: 16px;
 line-height: 28px;
+font-family: 'Mulish';
+font-style: normal;
 }
 
 .pageNumbers{
@@ -180,12 +199,15 @@ top: 280%;
 left: 12%;
 transform: translate(-50%, -50%);
 align-items: stretch;
-
+font-family: 'Mulish';
+font-style: normal;
 }
 
 .p11{
     padding-bottom: 30px;
     text-decoration: none;
+    font-family: 'Mulish';
+font-style: normal;
     font-size: 24px;
     text-align: start;
 }
@@ -194,6 +216,7 @@ align-items: stretch;
     padding-bottom: 30px;
     text-decoration: none;
     font-size: 24px;
-    
+    font-family: 'Mulish';
+font-style: normal;
     text-align: start;
 }

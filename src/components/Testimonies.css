@@ -8,17 +8,22 @@
     margin-bottom: 15px;
     text-align: start;
     margin-top: 50px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .swiper{
     margin-top: 50px;
     border: none;
     border-radius: 15px;
-    
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .t-card{
-    width: 100%;
+    width: 624px;
+    height: 362px;
+    margin-right: 36px;
     text-align: start;
     border-color: #013A6B;
     border-width: 1px;
@@ -28,16 +33,22 @@
     padding: 1rem .8rem;
     position: relative;
     transition: all 0.5s ease-in-out;
+    font-family: 'Mulish';
+font-style: normal;
+
 
 }
+
+
+  
 
 .t-card:hover{
     background-color: #013A6B;
 }
 
 .t-image{    
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     overflow: hidden;
     
@@ -53,21 +64,49 @@
 
 }
 .t-card h4{
-    font-size: 1.2rem;
-    padding: .9rem 0 .2rem 0;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 92%;
+/* identical to box height, or 22px */
+
+letter-spacing: -0.03em;
+padding-top: 16px;
+
+color: #013A6B;
     
 }
 
 .t-card h6{
-    font-size: .9rem;
-    color: grey;
-    padding: .9rem 0 .2rem 0;
-    margin-bottom: 15px;
-
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    /* identical to box height, or 17px */
+    
+    letter-spacing: -0.03em;
+    padding-top: 16px;
+    text-transform: uppercase;
+    
+    color: rgba(52, 52, 52, 0.65);
 }
 
 .t-card p{
     margin-bottom: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 139.5%;
+    /* or 28px */
+    
+    letter-spacing: -0.01em;
+    
+    /* Texts - Main */
+    
+    color: #333333;
 }
 
 .t-card:hover p{
@@ -76,8 +115,19 @@
 }
 
 .t-card:hover h4{
-    font-size: 1.2rem;
-    padding: .9rem 0 .2rem 0;
-    color: #DFE8F8;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 92%;
+/* identical to box height, or 22px */
+
+letter-spacing: -0.03em;
+
+color: #ffffff;
+
 }
 
+.t-card:hover h6{
+    color: rgba(255, 255, 255, 0.65);
+}

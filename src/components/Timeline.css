@@ -3,6 +3,8 @@
     align-items: center;
     padding-left: 100px;
     padding-top: 50px;
+    font-family: 'Mulish';
+font-style: normal;
 }
 
 .postinformation i{
@@ -16,12 +18,16 @@
     white-space: nowrap;
     padding-top: 40px;
     margin-left: 25px;
+    font-family: 'Mulish';
+font-style: normal;
     color: #7B7B7B;
     
 }
 
 .postinformation p{
     padding-right: 36px;
+    font-family: 'Mulish';
+font-style: normal;
     
 }
 
@@ -29,7 +35,8 @@
     text-align: start;
     width: 681px;
 height: 78px;
-
+font-family: 'Mulish';
+font-style: normal;
     padding-top: 39px;
     padding-bottom: 18px;
     font-weight: 700;
@@ -58,7 +65,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 150.6%;
 /* or 24px */
-
+font-family: 'Mulish';
+font-style: normal;
 
 /* Gray ( Paragraph ) */
 
@@ -72,6 +80,8 @@ width: 206px;
 height: 55px;
 left: 122px;
 top: 1344px;
+font-family: 'Mulish';
+font-style: normal;
 
 border: 1px solid #013A6B;
 border-radius: 5px;
@@ -83,12 +93,18 @@ margin-bottom: 60px;
     margin-bottom: 100px;
     border: 1px solid #013A6B;
 border-radius: 5px;
+font-family: 'Mulish';
+font-style: normal;
 }
 
 .pageButtonsb1:hover, .pageButtonsb2:hover, .pageButtonsb3:hover, .pageButtonsb4:hover{
     background-color: transparent;
     color: #013A6B;
+    font-family: 'Mulish';
+font-style: normal;
 }
 ul {
     list-style-type: none;
+    font-family: 'Mulish';
+font-style: normal;
 }

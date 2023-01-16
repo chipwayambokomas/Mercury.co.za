@@ -1,17 +1,15 @@
 import React, { useRef } from 'react'
 import Slider from 'react-slick'
-import pc from '../assests/newsPic1.png'
-import './MercuryLatestNews.css'
-import { Link } from 'react-router-dom'
+import pc from '../assests/fake.jpg'
+import './Testimonies.css'
 import './TestimoniesDemo.css'
-
 const TestimoniesDemo = () => {
     const sliderRef = useRef(null)
     console.log(sliderRef.current)
     return (
         <div>
             <div className='ButtonsTestimonies'>
-                <h1>Mercury latest news</h1>
+                <h1>What clients say about Mercury</h1>
                 <div className='Actually'>
                     <div className='LB' onClick={() =>sliderRef.current.slickPrev()}>
                     <i className="fa-sharp fa-solid fa-angle-left"></i>
@@ -23,29 +21,22 @@ const TestimoniesDemo = () => {
             </div>
             <div style={{marginLeft: 100}}>
                 <Slider
-                slidesToShow={3}
-                slidesToScroll={3}
+                slidesToShow={2}
+                slidesToScroll={2}
                 className='sliderThing'
                 ref={sliderRef}
                 >
 
                     {
                         Array(10).fill('').map(() => (
-                            <div className='t-cardA'
-                            > <div className='s-image'>
+                            <div className='t-card'
+                            >
+                            <p>Working with Micky is a pleasure. We are impressed by the way how their teamwork. It’s professional, at a good pace with great communication about our business needs. They were prepared extremely well to work with our company.</p>
+                            <div className='t-image'>
                                 <img alt='simg1' src={pc} />
                             </div>
                             <h4>Janet Moore</h4>
                             <h6>CMO, Woldie</h6>
-                            <p>Working with Micky is a pleasure. We are impressed by the way how their teamwork. It’s professional, at a good pace with great communication about our business needs. They were prepared extremely well to work with our company.</p>
-                           
-                            <ul className="b1">
-                        <li>
-                            <Link to='/about-us'>
-                                <button className="whowearebuttonA">Learn More <i className='fa-solid fa-arrow-right'></i></button>
-                            </Link>
-                        </li>
-                    </ul>
                             
                             
                         </div>
