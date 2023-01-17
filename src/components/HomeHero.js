@@ -17,7 +17,7 @@ function HomeHero() {
                     
                     <p className='p2'>We have worked on some amazing ideas that span</p> 
                     <p className='p3'>4 different continents. Here are some of our projects</p> 
-                    <p className='p4'>where change makers trsusted us to deliver their</p> 
+                    <p className='p4'>where change makers trusted us to deliver their</p> 
                     <p className='p5'>visions.</p>
                     <form>
                     <input placeholder='Track Your Shippments'/>

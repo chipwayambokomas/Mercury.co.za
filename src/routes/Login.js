@@ -1,6 +1,7 @@
 import './Login.css'
 import { FcGoogle } from 'react-icons/fc'
 import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils'
+import { Link } from 'react-router-dom'
 
 function Login() {
 
@@ -38,8 +39,14 @@ function Login() {
                             <label for='check'>Remember Me</label>
                             
             
-                            </div>                           
+                            </div>
+                            <ul>           
+                                <li>  
+                                    <Link className='ForgotP'>          
                             <p2>Forgot password?</p2>
+                            </Link>  
+                            </li> 
+                            </ul> 
                         </div>
                                
                         <button className='login-page'>Login</button>

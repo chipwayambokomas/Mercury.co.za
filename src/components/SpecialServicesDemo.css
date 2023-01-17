@@ -220,3 +220,142 @@ font-style: normal;
 font-style: normal;
     text-align: start;
 }
+
+.scro2l{
+    width: 4px;
+height: 335px;
+background-color: #FF5300;
+position: absolute;
+top: 278.5%;
+left: 9%;
+transform: translate(-50%, -50%);
+
+}
+
+.scro2l1{
+    width: 4px;
+    height: 43px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 255.7%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+
+}
+.scro2l2{
+    width: 4px;
+    height: 235px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 286.2%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.scro3l{
+    width: 4px;
+height: 335px;
+background-color: #FF5300;
+position: absolute;
+top: 278.5%;
+left: 9%;
+transform: translate(-50%, -50%);
+
+}
+
+.scro3l1{
+    width: 4px;
+    height: 110px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 260.7%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+
+}
+.scro3l2{
+    width: 4px;
+    height: 169px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 291.2%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.scro4l1{
+    width: 4px;
+    height: 165px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 265.3%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+
+}
+.scro4l2{
+    width: 4px;
+    height: 111px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 295.8%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.scro5l1{
+    width: 4px;
+    height: 224px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 269.9%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+
+}
+.scro5l2{
+    width: 4px;
+    height: 48px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 300.7%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.scro6l1{
+    width: 4px;
+    height: 286px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 274.7%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+
+}
+.scro6l2{
+    width: 4px;
+    height: 0;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 300.7%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    
+
+}
