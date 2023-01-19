@@ -1,6 +1,7 @@
 import React from 'react'
 import homeimage from '../assests/image 10.png'
 import './HomeHero.css'
+import InstantQuote from './InstantQuote'
 
 function HomeHero() {
     return (
@@ -30,7 +31,7 @@ function HomeHero() {
                     </div>
                     </div>                                                                    
                 </div>                      
-    
+    <InstantQuote/>
             </div>
         </>
     )

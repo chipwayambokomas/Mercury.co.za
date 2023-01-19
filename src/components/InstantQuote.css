@@ -1,0 +1,109 @@
+
+
+.InstantQuoteForm h1{
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 23px;
+    /* identical to box height */
+   
+    padding-top: 30px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    
+    
+    /* Color / White */
+    
+    color: #FFFFFF;
+    }
+    
+    .InstantQuoteForm{
+        background-color: #10375C;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        width: 445px;
+        height: 510px;
+        align-items: flex-start;
+     
+        border: 1px solid #013A6B;
+        list-style-type: none;
+        font-family: 'Mulish';
+    font-style: normal;
+    
+    }
+
+    .InstantQuoteForm label{
+        display: block;
+        text-align: start;
+        padding-left: 65px;
+        font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+
+color: #FFFFFF;
+
+opacity: 0.35;
+       
+    }
+    .InstantQuoteForm input, .InstantQuoteForm select{
+      
+        margin-left: 30px;
+        width: 386px;
+height: 56px;
+padding-left: 15px;
+background-color: #0D2C4A;
+border: 1px solid #013A6B;
+color: white;
+       
+    }
+    input:focus{
+        outline: none;
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+
+    .InstantQuote{
+        position: absolute;
+        top: 49.7%;
+        left: 237%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+        transform: translate(-50%,-50%);
+        width: 445px;
+        height: 510px;
+     
+     }
+
+     .line{
+        width:445px;
+       background-color:  rgba(255, 255, 255, 0.3);
+        height: 2px;
+        position: absolute;
+        top: 18%;
+        left: 237%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+        transform: translate(-50%,-50%);
+
+     }
+
+     .NextButton{
+        margin-left: 30px;
+        margin-top: 21px;
+        width: 386px;
+        height: 56px;
+        margin-bottom: 8px;
+        background-color: #FF5722;
+        color: white;
+        box-shadow: none;
+     }
+
+     .NextButton:hover{
+        background-color: #FF5722;
+     }
+    
