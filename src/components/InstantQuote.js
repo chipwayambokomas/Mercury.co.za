@@ -1,35 +1,31 @@
-import { useFormik } from "formik"
+
 import "./InstantQuote.css"
-import * as Yup from "yup"
+import React from 'react'
 import { useState } from "react"
+import { fabClasses } from "@mui/material";
 
 
 
 
 export default function InstantQuote() {
+  
+    const { OriginCountry, setOriginCountry } = useState("Zambia");
+    const { PickLocationCityField, setPickLocationCityField } = useState("Ndola");
+    const { DestinationCountry, setDestinationCountry } = useState("India");
+    const { DropLocationCityField, setDropLocationCityField } = useState(null);
+    const { Submit, setSubmit } = useState(false);
+    function getData1(val){
+        setPickLocationCityField(val.target.value)
+        setSubmit(false)
+    }
+    function getData2(val){
+        setDropLocationCityField(val.target.value)
+        setSubmit(false)
+    }
 
-    const { OriginCountry, setOriginCountry } = useState("3");
-    const { PickLocationCityField, setPickLocationCityField } = useState("");
-    const { DestinationCountry, setDestinationCountry } = useState("8");
-    const { DropLocationCityField, setDropLocationCityField } = useState("");
-    const formik = useFormik({
-        initialValues: {
-            OriginCountry: "Zambia",
-            PickLocationCityField: "",
-            DestinationCountry: "India",
-            DropLocationCityField: "",
-
-        },
-
-        validationSchema: Yup.object({
-            PickLocationCityField: Yup.string().required("City is required")
-        }),
-
-        onSubmit: (values) => {
-            console.log(values)
-
-
-            if (values.OriginCountry === "Afghanistan") {
+   
+        
+            {/*if (values.OriginCountry === "Afghanistan") {
                 setOriginCountry("12")
                 setPickLocationCityField(values.PickLocationCityField.toLowerCase())
             }
@@ -2076,22 +2072,21 @@ export default function InstantQuote() {
                     setDropLocationCityField("36")
                 }
 
-            }
-        }
-    })
+            }*/}
+  
 
-    console.log(formik.values)
+    
     return (
         <>
             <div className="InstantQuote">
-                <form className="InstantQuoteForm" onSubmit={formik.handleSubmit}>
+                <form className="InstantQuoteForm" >
                     <h1>Instant Quote</h1>
 
 
                     <div className="OriginCountry">
                         <label htmlFor="OriginCountry">Origin Country
                         </label>
-                        <select name="OriginCountry" value={formik.values.OriginCountry} onChange={formik.handleChange}>
+                        <select name="OriginCountry" >
                             <option>Afghanistan</option>
                             <option>Albania</option>
                             <option>Algeria</option>
@@ -2324,13 +2319,13 @@ export default function InstantQuote() {
                     </div>
                     <div className="PickLocationCity">
                         <label htmlFor="PickLocationCityField">Pickup Location</label>
-                        <input type="text" name="PickLocationCityField" placeholder="City" value={formik.values.PickLocationCityField} onChange={formik.handleChange} />
+                        <input type="text" name="PickLocationCityField" placeholder="City" onChange={getData1} />
                     </div>
 
 
                     <div className="DestinationCountry">
-                        <label htmlFor="DestinantionCountry">Destination Country</label>
-                        <select name="DestinantionCountry" value={formik.values.DestinationCountry} onChange={formik.handleChange}>
+                        <label htmlFor="DestinationCountry">Destination Country</label>
+                        <select name="DestinationCountry">
                             <option>Afghanistan</option>
                             <option>Albania</option>
                             <option>Algeria</option>
@@ -2564,16 +2559,26 @@ export default function InstantQuote() {
 
                     <div className="DropLocationCity">
                         <label htmlFor="DropLocationCityField">Drop Location</label>
-                        <input type="text" name="DropLocationCityField" placeholder="City" value={formik.values.DropLocationCityField} onChange={formik.handleChange} />
+                        <input type="text" name="DropLocationCityField" placeholder="City"  onChange={getData2} />
                     </div>
 
-                    <button type="submit" className="NextButton">Next</button>
+                    <button  className="NextButton" onClick={() =>setSubmit(true)}>Next</button>
 
                 </form>
 
             </div>
 
             <div className="line"></div>
+
+            <div>
+                {
+                    Submit?
+                    <h1>{DropLocationCityField}</h1>
+                    :null
+                }
+            </div>
+          
+
         </>
     )
 }

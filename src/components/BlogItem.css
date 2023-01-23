@@ -1,0 +1,19 @@
+.BlogItem-Title{
+    text-align: start;
+    width: 681px;
+height: 78px;
+font-family: 'Mulish';
+font-style: normal;
+    padding-top: 39px;
+    padding-bottom: 18px;
+    font-weight: 700;
+font-size: 31.25px;
+line-height: 123.6%;
+/* or 39px */
+
+
+/* Black */
+
+color: #373737;
+margin-left: 25px;
+}

@@ -1,14 +1,17 @@
 .BlogSideSection{
     position: absolute;
     text-align: center;
-    top: 185%;
+    top: 141%;
     left: 83%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
     transform: translate(-50%,-50%);
     width: 370px;
     font-family: 'Mulish';
 font-style: normal;
+margin-bottom: 100px;
 }
-
+.CategoryLinks{
+    text-decoration: none;
+}
 .BlogSideSection input{
     padding-left: 2rem;
     width: 370px;

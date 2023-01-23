@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { TimelineDatapg1 } from './TimelineData'
 import { useState } from 'react'
 
+
 function Timeline() {
 
     const [selected, setSelected] = useState(1);
@@ -13,7 +14,7 @@ function Timeline() {
     };
 
     const lists = [
-        { id: 1, title: "1", presentation: 'pageButtonsb1', page: '/blog/page=1' },
+        { id: 1, title: "1", presentation: 'pageButtonsb1', page: '/blog/page1/post1' },
         { id: 2, title: "2", presentation: 'pageButtonsb2', page: '/' },
         { id: 3, title: "3", presentation: 'pageButtonsb3', page: '/' },
         { id: 4, title: "4", presentation: 'pageButtonsb4', page: '/' }
@@ -43,7 +44,7 @@ function Timeline() {
 
                         <ul className="b1">
                             <li>
-                                <Link to='/'>
+                                <Link to={item.readMore}>
                                     <button className='readmore'>Read More <i className='fa-solid fa-arrow-right'></i></button>
                                 </Link>
                             </li>
@@ -53,7 +54,7 @@ function Timeline() {
                 )
             })}
 
-            <div className='pageButtons'>
+           {/*} <div className='pageButtons'>
                 {lists.map((list) => (
                     <ul>
                         <li>
@@ -73,7 +74,7 @@ function Timeline() {
                         </li>
                     </ul>
                 ))}
-            </div>
+                </div>*/}
 
         </div>
 

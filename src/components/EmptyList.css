@@ -1,0 +1,15 @@
+.Emprtylist-Wrap{
+    width: 20%;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: 'Mulish';
+font-style: normal;
+display: flex;
+justify-content: center;
+}
+
+.Emprtylist-Wrap img{
+    max-width: 250px;
+    width: 100%;
+}

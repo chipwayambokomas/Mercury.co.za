@@ -8,7 +8,7 @@ export const LatestData = [
     {
         image:pic1,
         preview: 'Minimal Post With A Preview Image',
-        link:'/'
+        link:'/blog/page1/post1'
     },
     {
         image:pic2,
@@ -25,12 +25,7 @@ export const LatestData = [
         preview: 'Creative Ways To Use Infographics For Your Business',
         link:'/'
     },
-    {
-        image:pic5,
-        preview:'Tumblr Banner Templates : Tips To Get Better Engagement',
-        link:'/'
-    },
-
+   
 ]
 
 export const CategoryData = [
