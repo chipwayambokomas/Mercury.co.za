@@ -15,10 +15,13 @@ font-style: normal;
     cursor: pointer;
     margin-left: 14px;
     
-    
+    text-decoration: none;
     
 }
+.LogoMyBoy{
+    text-decoration: none;
 
+}
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(7, auto);

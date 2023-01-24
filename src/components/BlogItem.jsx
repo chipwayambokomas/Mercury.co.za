@@ -1,38 +1,41 @@
 
+import Chip from './Chip'
 import React from 'react'
 import './BlogItem.css'
 import { Link } from 'react-router-dom'
-import './Timeline.css'
-import Chip from './Chip'
 
-const BlogItem = ({blog:{category,image,date,title,preview,Aname,readMore}}) => {
-  return (
-    <div>
 
-<img alt='image1-t' className='image1-t' src={image} />
+const BlogItem = ({ blog: { id, image, tags, date, Aname, title, preview, readMore } }) => (
+        <div className='BlogItem-Wrap'>
 
-<div className='postinformation'>
-    <p><i className="fa-solid fa-clock"></i>{date}</p>
-    <p><i className="fa-solid fa-user"></i>{Aname}</p>
-   
-</div>
+            <img src={image} alt='cover' className='BlogItem-Cover'/>
 
-<h1 className='BlogItem-Title'>{title}</h1>
+        <div className='chipWrapB'>
+            {tags.map((tags, index) => {
+                return (
+                    <Chip label={tags} key={index} />
+                )
+            })}
+            
+        </div>
 
-<p className='postpre'>{preview}</p>
+            <h3>{title}</h3>
 
-<Chip label={category}/>
+            <p className='blogItem-des'>{preview}</p>
 
-<ul className="b1">
-    <li>
-        <Link to={readMore}>
-            <button className='readmore'>Read More <i className='fa-solid fa-arrow-right'></i></button>
-        </Link>
-    </li>
-</ul>
-      
-    </div>
-  )
-}
+            <footer>
+                <div className='BlogItemAuther'>
+                    <div>
+                        <h6>{Aname}</h6>
+                        <p>{date}</p>
+                    </div>
+                </div>
+                <Link className='BlogItem-Link' to={readMore}><i className='fa-solid fa-arrow-right'></i></Link>
+            </footer>
+
+
+        </div>
+
+)
 
 export default BlogItem

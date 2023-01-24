@@ -1,0 +1,11 @@
+.SerachResults{
+    position: absolute;
+    top: 76%;
+    left: 14.3%;
+    transform: translate(-50%, -50%);
+    
+}
+
+Link{
+    text-decoration: none;
+}

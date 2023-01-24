@@ -2,7 +2,8 @@
     align-items: start;
     padding-left: 2rem;
     width: 370px;
-height: 60px;
+    margin-left: 800px;
+height: 40px;
     /* White */
 
 background: white;
@@ -20,17 +21,22 @@ border-radius: 10px 0 0 10px ;
   }
 
 .SearchBar-wrap{
-    text-align: start;
+    text-align: end;
     display: flex;
+    background-color: lightgray;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 47PX;
     margin-top: 40px;
     margin-bottom: 40px;
+    height: 80px;
+    border-radius: 15px;
+
+    width: 1250px;
 }
 
 .GoButton-Style{
     border-radius: 0 10px 10px 0 ;
-    height: 60px;
+    height: 40px;
     width: 60px;
     border: 1px solid black;
 outline: none;
@@ -39,13 +45,26 @@ box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 
 }
 
+.Suggestions{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+.TheAutoOnes{
+    padding: 5px;
+    cursor: pointer;
+}
+.TheAutoOnes:hover{
+    color: grey;
+    
+}
+
 
 .SearchBar-wrap span{
     padding-right: 0 ;
     cursor: pointer;
     position: absolute;
-    top: 66%;
+    top: 67%;
     
-    left: 33%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+    left: 89%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
     transform: translate(-50%,-50%);
 }

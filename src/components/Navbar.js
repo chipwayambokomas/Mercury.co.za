@@ -20,7 +20,7 @@ class Navbar extends Component {
       <nav className='NavbarItems'>
         <ul>
           <li>
-            <Link to='/'>
+            <Link to='/' className='LogoMyBoy'>
             <img src='https://www.mercury.co.zm/wp-content/uploads/2018/10/logo-300.png' alt='mercury logo' width={150} height={46} className="logo" />
             </Link>
           </li>

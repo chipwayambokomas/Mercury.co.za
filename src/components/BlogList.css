@@ -1,6 +1,9 @@
-.BlogList-Wrap{width: 20%;
-align-items: center;
-padding-left: 100px;
-font-family: 'Mulish';
-font-style: normal;
+.BlogList-Wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+    padding-bottom: 50px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-decoration: none;
 }
