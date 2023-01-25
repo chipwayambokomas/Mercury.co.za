@@ -19,7 +19,11 @@
 
 .BlogItem-Wrap h3{
     margin: .5rem 0 1rem 0;
-    flex: 1;
+    height: 60px;
+    text-align: start;
+    font-family: 'Mulish';
+font-style: normal;
+
 }
 
 .blogItem-des{
@@ -29,6 +33,10 @@
     font-size: .9rem;
     padding-right: .6rem;
     color: #a9a9a9;
+    font-family: 'Mulish';
+font-style: normal;
+
+    text-align: start;
 }
 
 .blogItem-des::before{
@@ -41,13 +49,25 @@
 .BlogItem-Wrap footer{
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: .8rem;
     justify-content: space-between;
 }
 
 .BlogItem-Link{
     text-decoration: none;
     color: inherit;
+    font-weight: 400;
+}
+
+.BlogItem-Link button{
+    border: 1px solid #013A6B;
+    font-weight: 500;
+}
+
+
+
+.BlogItem-Link i{
+   padding-left: 10px;
     
 }
 
@@ -57,9 +77,23 @@
 }
 
 .BlogItemAuther p{
-    font-size: .8rem;
+    font-size: 1rem;
     color: #a9a9a9;
+    font-family: 'Mulish';
+font-style: normal;
+
     font-weight: 600;
+    
+}
+
+.BlogItemAuther h6{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Mulish';
+font-style: normal;
+
+    font-weight: 600;
+    
 }
 
 

@@ -8,7 +8,7 @@ function FeedbackAttributes() {
         <div className='dualcontainer'>
             <div className='attributes'>
                 <h1>WHAT MAKES US SPECIAL?</h1>
-                <h1 className='line'>_________</h1>
+               
                 <p className='p21'>Working in 17 regional clusters to deliver operational</p>
                 <p className='p22'>excellence.</p>
                 <div className='q1'>

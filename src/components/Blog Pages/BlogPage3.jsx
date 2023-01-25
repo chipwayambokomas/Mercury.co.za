@@ -5,10 +5,16 @@ import RegularHero from 'C:/Users/Sabo/OneDrive/Pictures/Documents/Tigmoo/mercur
 import homeimage from 'C:/Users/Sabo/OneDrive/Pictures/Documents/Tigmoo/mercuryv3/src/assests/regular.png'
 import Footer from '../Footer'
 import timeline3 from "C:/Users/Sabo/OneDrive/Pictures/Documents/Tigmoo/mercuryv3/src/assests/timeline3.png"
+import Chip from "C:/Users/Sabo/OneDrive/Pictures/Documents/Tigmoo/mercuryv3/src/components/Chip"
 import './BlogPages.css'
 import { Link } from 'react-router-dom'
 
 const BlogPage1 = () => {
+
+    const chips = [
+        'Air Freight', 'Air Travel', 'Import Tax'
+      ]
+
     return (
         <>
 
@@ -25,36 +31,31 @@ const BlogPage1 = () => {
                 backgroundTitle='BLOG'
             />
 
-            <div>
+            <div className='TheFinalFrontier'>
+                <header>
+                    <h1 className='BlogTitle-A'>Can renewable energy make logistics operations cheaper?</h1>
+                    <p className='Blog-Date'>Published January 25, 2021</p>
+                    <p className='Blog-Author'>By: Cristofer Westervelt</p>
+                    
+                    <div className='Blog-TagsB'>
+                    {chips.map((chips,index)=> {return(<div><Chip key={index} label={chips}/></div>)})}
+                    
+                    </div>
 
-                <h3 className='DateOfPublish'>Published January 25, 2021</h3>
+                </header>
 
-                <h1 className='TitleOfBlog'>35 Stellar Courier Blogs to Keep You Courier to your home.</h1>
+                <img src={timeline3} alt='cover'/>
+                <p className='blogItem-desA'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.</p>
 
-                <div className='ChipWrap'>
-                    <p className='Blogchip'>Air Freight</p>
-                    <p className='Blogchip'>Air Travel</p>
-                    <p className='Blogchip'>Import Tax</p>
-                </div>
 
-                <img src={timeline3} alt='Timeline1' className='BlogMainImage'></img>
-                <div className='BlogContentWrap'>
-
-                    <p className='BlogContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.</p>
-
-                </div>
-
-                <ul className="b1">
+            </div> 
+            <ul className="b1">
                     <li>
                         <Link to='/blog/page=1'>
                             <button className='Gobackbutton'><i className='fa-solid fa-arrow-left'></i>Go Back</button>
                         </Link>
                     </li>
                 </ul>
-
-
-
-            </div>
 
 
             <Footer />

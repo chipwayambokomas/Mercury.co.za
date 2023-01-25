@@ -28,9 +28,9 @@ const SearchBar = ({ value, handleSearchKey, clearSearch, formSubmit }) => {
         onFocus={() => 
         setIsFocus(true)}/> 
         
-        {value && <span onClick={clearSearch}>X</span>}
+        {value && <span onClick={clearSearch}>x</span>}
 
-        <button className='GoButton-Style'>Go</button>
+        <button className='GoButton-Style'><p>Go</p></button>
        {/* {isFocus && ( 
         <div className='Suggestions'>
           {suggest.map((suggest, index) => {

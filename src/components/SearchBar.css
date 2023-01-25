@@ -2,16 +2,17 @@
     align-items: start;
     padding-left: 2rem;
     width: 370px;
-    margin-left: 800px;
+    border: 1px solid #013A6B;
+    
 height: 40px;
     /* White */
 
 background: white;
 /* Effect-1 */
-border: 1px solid black;
+
 
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-border-radius: 10px 0 0 10px ;
+border-radius: 20px;
 
     
 }
@@ -21,28 +22,32 @@ border-radius: 10px 0 0 10px ;
   }
 
 .SearchBar-wrap{
-    text-align: end;
-    display: flex;
-    background-color: lightgray;
-    align-items: center;
-    margin-left: 47PX;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    height: 80px;
-    border-radius: 15px;
-
-    width: 1250px;
+    margin-top: 27px;
+    margin-right: 7px;
 }
 
 .GoButton-Style{
-    border-radius: 0 10px 10px 0 ;
-    height: 40px;
+    border-radius: 20px;
+    height: 30px;
     width: 60px;
-    border: 1px solid black;
+    padding-bottom: 20px;
+    font-weight: 400;
+    
 outline: none;
+text-align: center;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+border: 1px solid #013A6B;
+background-color: #013A6B;
+color: #fff;
+position: absolute;
+top: 135.6%;
 
+left: 95%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+transform: translate(-50%,-50%);
 
+}
+.GoButton-Style:hover{
+    background-color: #013A6B;
 }
 
 .Suggestions{
@@ -63,8 +68,8 @@ box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     padding-right: 0 ;
     cursor: pointer;
     position: absolute;
-    top: 67%;
+    top: 135.62%;
     
-    left: 89%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
+    left: 92%; /*if you leave out this and the next one you can keep them on the left like in the design link*/
     transform: translate(-50%,-50%);
 }

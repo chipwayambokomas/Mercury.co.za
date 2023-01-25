@@ -1,6 +1,6 @@
 .pic1 {
     left: 1440px;
-    margin-left: 380px;
+    margin-left: 340px;
     margin-bottom: 50px;
 
 
@@ -35,7 +35,7 @@ font-style: normal;
 
 .serviceDetailCardDetail {
     font-weight: 500;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 38px;
     /* or 200% */
 
@@ -88,11 +88,11 @@ font-style: normal;
 
 .serviceDetailCardTitle1 {
     padding-top: 40px;
-    padding-left: 40px;
-    padding-bottom: 34px;
+    padding-left: 25px;
+    padding-bottom: 25px;
     font-weight: 800;
     font-size: 24.06px;
-    line-height: 30px;
+    line-height: 20px;
     font-family: 'Mulish';
 font-style: normal;
 
@@ -101,15 +101,15 @@ font-style: normal;
 
 .serviceDetailCardDetail1 {
     font-weight: 500;
-    font-size: 19px;
-    line-height: 38px;
+    font-size: 15px;
+    line-height: 28px;
     /* or 200% */
     font-family: 'Mulish';
 font-style: normal;
 
 
     color: #FFFFFF;
-    padding-left: 40px;
+    padding-left: 25px;
 }
 
 .serviceDetailCard1 button{
@@ -178,3 +178,6 @@ font-style: normal;
 }
 
 
+.ServiceSection2-1-{
+    max-width: 1200px;
+}

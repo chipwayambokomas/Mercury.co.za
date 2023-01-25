@@ -1,11 +1,233 @@
-.SerachResults{
-    position: absolute;
-    top: 76%;
-    left: 14.3%;
-    transform: translate(-50%, -50%);
+.SerachResults {
+    text-align: start;
+    padding-top: 10px;
+    font-family: 'Mulish';
+    padding-left: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+/* or 24px */
+
+
+/* Gray ( Paragraph ) */
+
+color: #7B7B7B;
+
+}
+
+Link {
+    text-decoration: none;
+}
+
+.TestBlogSection {
+    
+    display: flex;
+
+}
+
+.SerchBar-section {
+    max-width: 200px;
+}
+
+.sideBar {
+    flex: 3;
+}
+
+.latestPostNewSec {
+    width: 370px;
+    border-radius: 15px;
+    align-items: center;
+    border: 1px solid #013A6B;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.latestPostNewSec h3 {
+    text-align: start;
+    color: #013A6B;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 49px;
+    padding-bottom: 25px;
+}
+.PostsWrap-ME{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.mainBlog{
+    margin-top: 15px;
+    margin-left: 800px;
+    align-items: center;
+    padding: 20px;
+   flex: 3;
+   border-radius: 15px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background: rgba(41, 41, 41, 0.39);
+    backdrop-filter: blur(5px);
+    width: 360px;
+}
+.mainBlog h3{
+    text-align: start;
+    text-align: start;
+    color: #FF5722;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 25px;
+
+}
+.mainBlog p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+/* or 24px */
+
+
+/* Gray ( Paragraph ) */
+
+color: #c4c2c2;
+text-align: start;
+padding-bottom: 25px;
+
+}
+.mainBlog button{
+    border: 1px solid #FF5722;
+    font-weight: 700;
+    color: #FF5722;
+}
+.PostsWrap-MEWORDS{
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    text-decoration: none;
     
 }
 
-Link{
+.latestPostNewSec a{
     text-decoration: none;
+    color: black;
+}
+
+.mainBlog-wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    height: 445px;
+    margin-top: 25px;
+    background-image: url("C:/Users/Sabo/OneDrive/Pictures/Documents/Tigmoo/mercuryv3/src/assests/mainImage.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+
+
+    
+}
+.instagram-Circle{
+    background: #013A6B;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.instagram-Circle a{
+    text-decoration: none;
+    color: #FF5722;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 6px;
+    font-size: 7rem;
+
+}
+
+.facebook-Circle{
+    background: #FF5722;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 190px;
+   
+}
+.SpcialMediaLinks{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.facebook-Circle a{
+    text-decoration: none;
+    color: #013A6B;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 6px;
+    font-size: 5.8rem;
+
+}
+
+.linkedin-Circle{
+    background: #013A6B;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.linkedin-Circle a{
+    text-decoration: none;
+    color: #FF5722;
+    text-align: center;
+    padding-left: 23px;
+    font-size: 3.8rem;
+    padding-top: 6px;
+
+}
+
+.youtube-Circle{
+    background: #FF5722;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.youtube-Circle a{
+    text-decoration: none;
+    color: #013A6B;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 14px;
+    font-size: 3rem;
+
 }

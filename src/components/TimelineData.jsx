@@ -54,7 +54,7 @@ export const TimelineDatapg1 = [
 
         preview:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices facilisi sed tincidunt mauris duis pulvinar convallis eu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.',
 
-        title: 'How Mercury became the biggest Logistic company in Zambia and what twe plan on doing next!',
+        title: 'How Mercury became the biggest Logistic company in Zambia and what we plan on doing next!',
         readMore:'/blog/page4'
     },
    

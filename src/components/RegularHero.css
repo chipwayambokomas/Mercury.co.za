@@ -25,9 +25,9 @@ background-color: red;
 .RegularHero-text{
     position: absolute;
     top: 35%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 40%;
     margin-left: 20px;
 
     text-align: start;
@@ -75,6 +75,7 @@ color: #FFFFFF;
 .RegularHero-Backgroundtext h1{
   
     font-weight: 700;
+    width: 100%;
     font-size: 200px;
     line-height: 0px;
     /* identical to box height */
@@ -87,5 +88,8 @@ color: #FFFFFF;
     -webkit-text-stroke-color: white;
 
     
+}
+.RegularHero-Backgroundtext{
+    width: 80%;
 }
 

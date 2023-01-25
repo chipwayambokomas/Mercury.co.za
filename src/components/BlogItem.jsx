@@ -1,5 +1,4 @@
 
-import Chip from './Chip'
 import React from 'react'
 import './BlogItem.css'
 import { Link } from 'react-router-dom'
@@ -10,14 +9,7 @@ const BlogItem = ({ blog: { id, image, tags, date, Aname, title, preview, readMo
 
             <img src={image} alt='cover' className='BlogItem-Cover'/>
 
-        <div className='chipWrapB'>
-            {tags.map((tags, index) => {
-                return (
-                    <Chip label={tags} key={index} />
-                )
-            })}
-            
-        </div>
+      
 
             <h3>{title}</h3>
 
@@ -30,7 +22,11 @@ const BlogItem = ({ blog: { id, image, tags, date, Aname, title, preview, readMo
                         <p>{date}</p>
                     </div>
                 </div>
-                <Link className='BlogItem-Link' to={readMore}><i className='fa-solid fa-arrow-right'></i></Link>
+                <Link className='BlogItem-Link' to={readMore}>
+                    <button>
+                        Read More <i className='fa-solid fa-arrow-right'></i>
+                    </button>
+                </Link>
             </footer>
 
 

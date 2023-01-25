@@ -2,9 +2,15 @@
     display: flex;
     justify-content: center;
     padding-bottom: 200px;
+    padding-left: 20px;
+    margin-right: 5px;
+    max-width: 1200px;
+    width: 70%;
+
+    padding-right: 20px;
 
 }
 .Emprtylist-Wrap img{
-    max-width: 250px;
+    max-width: 350px;
     width: 100%;
 }

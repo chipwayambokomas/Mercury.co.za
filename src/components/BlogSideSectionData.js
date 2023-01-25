@@ -7,22 +7,22 @@ import pic4 from '../assests/latest4.png'
 export const LatestData = [
     {
         image:pic1,
-        preview: 'Minimal Post With A Preview Image',
+        preview: 'How does Covid-19 affect import tax today?',
         link:'/blog/page1'
     },
     {
         image:pic2,
-        preview: 'Good Design Makes Me Happy',
+        preview: 'New energy source makes logistics operations cheaper!',
         link:'/blog/page2'
     },
     {
         image:pic3,
-        preview: 'Best 27 Design Blogs for 2021',
+        preview: 'Can renewable energy make logistics operations cheaper?',
         link:'/blog/page3'
     },
     {
         image:pic4,
-        preview: 'Creative Ways To Use Infographics For Your Business',
+        preview: 'How Mercury became the biggest Logistic company in Zambia and what we plan on doing next!',
         link:'/blog/page4'
     },
    

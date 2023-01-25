@@ -50,7 +50,7 @@ font-style: normal;
 
 .nav-links:hover {
     border-bottom: 3px solid #233367;
-    color: #233367;
+    color: blue;
     transition: all 0.3s ease-in-out;
 }
 

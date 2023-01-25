@@ -5,7 +5,7 @@
         background: #013A6B;
         text-align: start;
         position: absolute;
-        top: 168%;
+        top: 165%;
         left: 20%;
         transform: translate(-50%, -50%);
         font-family: 'Mulish';
@@ -19,7 +19,7 @@ font-style: normal;
     background: #013A6B;
     text-align: start;
     position: absolute;
-    top: 260%;
+    top: 250%;
     right: -20%;
     transform: translate(-50%, -50%);
     font-family: 'Mulish';
@@ -50,9 +50,16 @@ font-style: normal;
 .pic1A{
     
         left: 1440px;
-        margin-left: 530px;
+        margin-left: 528px;
         margin-bottom: 50px;
     
     
     
+}
+.pic2{
+    width: 80%;
+}
+
+.InnovationTechnology{
+    max-width: 1200px;
 }
